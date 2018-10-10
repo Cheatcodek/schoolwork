@@ -1,0 +1,24 @@
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).exe.config
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).pdb
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbprojAssemblyReference.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8_ChangeMaker_.frmMain.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8_ChangeMaker_.Resources.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbproj.GenerateResource.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbproj.CoreCompileInputs.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).pdb
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).exe.config
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).exe
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).pdb
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\bin\Debug\Hudzik8(ChangeMaker).xml
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8_ChangeMaker_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8_ChangeMaker_.Resources.resources
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).exe
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).xml
+C:\Users\106307\Desktop\Hudzik8(ChangeMaker)\Hudzik8(ChangeMaker)\obj\Debug\Hudzik8(ChangeMaker).pdb

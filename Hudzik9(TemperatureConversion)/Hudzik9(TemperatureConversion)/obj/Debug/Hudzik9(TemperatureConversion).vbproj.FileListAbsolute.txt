@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\bin\Debug\Hudzik9(TemperatureConversion).exe.config
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\bin\Debug\Hudzik9(TemperatureConversion).exe
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\bin\Debug\Hudzik9(TemperatureConversion).pdb
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\bin\Debug\Hudzik9(TemperatureConversion).xml
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9_TemperatureConversion_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9_TemperatureConversion_.Resources.resources
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).exe
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).xml
+C:\Users\106307\Desktop\Hudzik9(TemperatureConversion)\Hudzik9(TemperatureConversion)\obj\Debug\Hudzik9(TemperatureConversion).pdb
