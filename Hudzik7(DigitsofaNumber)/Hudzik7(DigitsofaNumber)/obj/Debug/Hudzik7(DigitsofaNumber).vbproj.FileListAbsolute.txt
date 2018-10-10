@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\bin\Debug\Hudzik7(DigitsofaNumber).exe.config
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\bin\Debug\Hudzik7(DigitsofaNumber).exe
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\bin\Debug\Hudzik7(DigitsofaNumber).pdb
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\bin\Debug\Hudzik7(DigitsofaNumber).xml
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7_DigitsofaNumber_.Form1.resources
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7_DigitsofaNumber_.Resources.resources
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).exe
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).xml
+C:\Users\106307\Desktop\Hudzik7(DigitsofaNumber)\Hudzik7(DigitsofaNumber)\obj\Debug\Hudzik7(DigitsofaNumber).pdb

@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\bin\Debug\HudzikWebBrowser(YeetDip).exe.config
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\bin\Debug\HudzikWebBrowser(YeetDip).exe
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\bin\Debug\HudzikWebBrowser(YeetDip).pdb
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\bin\Debug\HudzikWebBrowser(YeetDip).xml
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser.Resources.resources
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).exe
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).xml
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser(YeetDip).pdb
+C:\Users\106307\Desktop\HudzikWebBrowser(YeetDip)\HudzikWebBrowser(YeetDip)\obj\Debug\HudzikWebBrowser.frmWebBrowser.resources

@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\bin\Debug\Hudzik6(Geometric Solutions).exe.config
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\bin\Debug\Hudzik6(Geometric Solutions).exe
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\bin\Debug\Hudzik6(Geometric Solutions).pdb
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\bin\Debug\Hudzik6(Geometric Solutions).xml
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6_Geometric_Solutions_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6_Geometric_Solutions_.Resources.resources
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).exe
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).xml
+C:\Users\106307\Desktop\Hudzik6(Geometric Solutions)\Hudzik6(Geometric Solutions)\obj\Debug\Hudzik6(Geometric Solutions).pdb
