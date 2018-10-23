@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\bin\Debug\Hudzik11(ShowWhatYouKnow).exe.config
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\bin\Debug\Hudzik11(ShowWhatYouKnow).exe
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\bin\Debug\Hudzik11(ShowWhatYouKnow).pdb
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\bin\Debug\Hudzik11(ShowWhatYouKnow).xml
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11_ShowWhatYouKnow_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11_ShowWhatYouKnow_.Resources.resources
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).exe
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).xml
+C:\Users\106307\Desktop\Hudzik11(ShowWhatYouKnow)\Hudzik11(ShowWhatYouKnow)\obj\Debug\Hudzik11(ShowWhatYouKnow).pdb
