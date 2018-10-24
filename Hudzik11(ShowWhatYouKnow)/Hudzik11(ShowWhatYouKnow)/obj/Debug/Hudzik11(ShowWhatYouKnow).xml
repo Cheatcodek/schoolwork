@@ -22,5 +22,20 @@ Hudzik11(ShowWhatYouKnow)
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Hudzik11_ShowWhatYouKnow_.My.Resources.Resources.deusend">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik11_ShowWhatYouKnow_.My.Resources.Resources.kot">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik11_ShowWhatYouKnow_.My.Resources.Resources.tonk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

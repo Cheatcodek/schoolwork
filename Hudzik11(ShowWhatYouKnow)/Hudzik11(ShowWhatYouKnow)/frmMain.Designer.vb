@@ -32,12 +32,13 @@ Partial Class frmMain
         Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuMenuLabelThings = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuDoLabelThings = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.txtTextBox = New System.Windows.Forms.TextBox()
         Me.lblTEXTBOX = New System.Windows.Forms.Label()
+        Me.txtBOX = New System.Windows.Forms.TextBox()
+        Me.picPICTURES = New System.Windows.Forms.PictureBox()
         Me.grpBoxofLabalChanging.SuspendLayout()
         Me.mnuMain.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picPICTURES, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblMain
@@ -127,17 +128,9 @@ Partial Class frmMain
         Me.mnuDoLabelThings.Size = New System.Drawing.Size(180, 22)
         Me.mnuDoLabelThings.Text = "Do Label Things"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(17, 92)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(114, 88)
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
-        '
         'txtTextBox
         '
-        Me.txtTextBox.Location = New System.Drawing.Point(189, 93)
+        Me.txtTextBox.Location = New System.Drawing.Point(210, 93)
         Me.txtTextBox.Name = "txtTextBox"
         Me.txtTextBox.Size = New System.Drawing.Size(100, 20)
         Me.txtTextBox.TabIndex = 5
@@ -145,20 +138,38 @@ Partial Class frmMain
         'lblTEXTBOX
         '
         Me.lblTEXTBOX.AutoSize = True
-        Me.lblTEXTBOX.Location = New System.Drawing.Point(159, 116)
+        Me.lblTEXTBOX.Location = New System.Drawing.Point(180, 116)
         Me.lblTEXTBOX.Name = "lblTEXTBOX"
         Me.lblTEXTBOX.Size = New System.Drawing.Size(175, 13)
         Me.lblTEXTBOX.TabIndex = 6
         Me.lblTEXTBOX.Text = "HEY THERE'S NO TEXT IN HERE"
         '
+        'txtBOX
+        '
+        Me.txtBOX.Location = New System.Drawing.Point(17, 227)
+        Me.txtBOX.Name = "txtBOX"
+        Me.txtBOX.Size = New System.Drawing.Size(100, 20)
+        Me.txtBOX.TabIndex = 7
+        '
+        'picPICTURES
+        '
+        Me.picPICTURES.Image = Global.Hudzik11_ShowWhatYouKnow_.My.Resources.Resources.deusend
+        Me.picPICTURES.Location = New System.Drawing.Point(6, 91)
+        Me.picPICTURES.Name = "picPICTURES"
+        Me.picPICTURES.Size = New System.Drawing.Size(168, 121)
+        Me.picPICTURES.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picPICTURES.TabIndex = 4
+        Me.picPICTURES.TabStop = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(374, 333)
+        Me.ClientSize = New System.Drawing.Size(374, 262)
+        Me.Controls.Add(Me.txtBOX)
         Me.Controls.Add(Me.lblTEXTBOX)
         Me.Controls.Add(Me.txtTextBox)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picPICTURES)
         Me.Controls.Add(Me.btnThree)
         Me.Controls.Add(Me.grpBoxofLabalChanging)
         Me.Controls.Add(Me.lblMain)
@@ -170,7 +181,7 @@ Partial Class frmMain
         Me.grpBoxofLabalChanging.PerformLayout()
         Me.mnuMain.ResumeLayout(False)
         Me.mnuMain.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picPICTURES, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -186,7 +197,8 @@ Partial Class frmMain
     Friend WithEvents mnuExit As ToolStripMenuItem
     Friend WithEvents mnuMenuLabelThings As ToolStripMenuItem
     Friend WithEvents mnuDoLabelThings As ToolStripMenuItem
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents picPICTURES As PictureBox
     Friend WithEvents txtTextBox As TextBox
     Friend WithEvents lblTEXTBOX As Label
+    Friend WithEvents txtBOX As TextBox
 End Class
