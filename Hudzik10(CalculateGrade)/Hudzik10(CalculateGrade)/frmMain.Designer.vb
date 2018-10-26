@@ -35,6 +35,7 @@ Partial Class frmMain
         Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuCalculate = New System.Windows.Forms.ToolStripMenuItem()
         Me.picGradingScale = New System.Windows.Forms.PictureBox()
+        Me.chkRandomizer = New System.Windows.Forms.CheckBox()
         Me.mnuMain.SuspendLayout()
         CType(Me.picGradingScale, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -145,11 +146,22 @@ Partial Class frmMain
         Me.picGradingScale.TabIndex = 9
         Me.picGradingScale.TabStop = False
         '
+        'chkRandomizer
+        '
+        Me.chkRandomizer.AutoSize = True
+        Me.chkRandomizer.Location = New System.Drawing.Point(244, 127)
+        Me.chkRandomizer.Name = "chkRandomizer"
+        Me.chkRandomizer.Size = New System.Drawing.Size(79, 17)
+        Me.chkRandomizer.TabIndex = 10
+        Me.chkRandomizer.Text = "Randomize"
+        Me.chkRandomizer.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(328, 293)
+        Me.Controls.Add(Me.chkRandomizer)
         Me.Controls.Add(Me.picGradingScale)
         Me.Controls.Add(Me.lblPassing)
         Me.Controls.Add(Me.lblPercentage)
@@ -184,4 +196,5 @@ Partial Class frmMain
     Friend WithEvents mnuExit As ToolStripMenuItem
     Friend WithEvents mnuCalculate As ToolStripMenuItem
     Friend WithEvents picGradingScale As PictureBox
+    Friend WithEvents chkRandomizer As CheckBox
 End Class
