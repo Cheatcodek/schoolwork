@@ -30,6 +30,13 @@ Partial Class frmMain
         Me.lblInfoPercentage = New System.Windows.Forms.Label()
         Me.lblPercentage = New System.Windows.Forms.Label()
         Me.lblPassing = New System.Windows.Forms.Label()
+        Me.mnuMain = New System.Windows.Forms.MenuStrip()
+        Me.mnuFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuCalculate = New System.Windows.Forms.ToolStripMenuItem()
+        Me.picGradingScale = New System.Windows.Forms.PictureBox()
+        Me.mnuMain.SuspendLayout()
+        CType(Me.picGradingScale, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblInfoEarnedPoints
@@ -76,7 +83,7 @@ Partial Class frmMain
         'lblInfoPercentage
         '
         Me.lblInfoPercentage.AutoSize = True
-        Me.lblInfoPercentage.Location = New System.Drawing.Point(12, 177)
+        Me.lblInfoPercentage.Location = New System.Drawing.Point(12, 206)
         Me.lblInfoPercentage.Name = "lblInfoPercentage"
         Me.lblInfoPercentage.Size = New System.Drawing.Size(68, 13)
         Me.lblInfoPercentage.TabIndex = 5
@@ -85,7 +92,7 @@ Partial Class frmMain
         'lblPercentage
         '
         Me.lblPercentage.AutoSize = True
-        Me.lblPercentage.Location = New System.Drawing.Point(62, 200)
+        Me.lblPercentage.Location = New System.Drawing.Point(62, 229)
         Me.lblPercentage.Name = "lblPercentage"
         Me.lblPercentage.Size = New System.Drawing.Size(13, 13)
         Me.lblPercentage.TabIndex = 6
@@ -99,11 +106,51 @@ Partial Class frmMain
         Me.lblPassing.Size = New System.Drawing.Size(0, 13)
         Me.lblPassing.TabIndex = 7
         '
+        'mnuMain
+        '
+        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFile, Me.mnuCalculate})
+        Me.mnuMain.Location = New System.Drawing.Point(0, 0)
+        Me.mnuMain.Name = "mnuMain"
+        Me.mnuMain.Size = New System.Drawing.Size(328, 24)
+        Me.mnuMain.TabIndex = 8
+        Me.mnuMain.Text = "MenuStrip1"
+        '
+        'mnuFile
+        '
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuExit})
+        Me.mnuFile.Name = "mnuFile"
+        Me.mnuFile.Size = New System.Drawing.Size(37, 20)
+        Me.mnuFile.Text = "File"
+        '
+        'mnuExit
+        '
+        Me.mnuExit.Name = "mnuExit"
+        Me.mnuExit.Size = New System.Drawing.Size(92, 22)
+        Me.mnuExit.Text = "Exit"
+        '
+        'mnuCalculate
+        '
+        Me.mnuCalculate.Name = "mnuCalculate"
+        Me.mnuCalculate.Size = New System.Drawing.Size(68, 20)
+        Me.mnuCalculate.Text = "Calculate"
+        '
+        'picGradingScale
+        '
+        Me.picGradingScale.Image = Global.Hudzik10_CalculateGrade_.My.Resources.Resources.grscale
+        Me.picGradingScale.InitialImage = Nothing
+        Me.picGradingScale.Location = New System.Drawing.Point(0, 101)
+        Me.picGradingScale.Name = "picGradingScale"
+        Me.picGradingScale.Size = New System.Drawing.Size(150, 101)
+        Me.picGradingScale.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picGradingScale.TabIndex = 9
+        Me.picGradingScale.TabStop = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(303, 277)
+        Me.ClientSize = New System.Drawing.Size(328, 293)
+        Me.Controls.Add(Me.picGradingScale)
         Me.Controls.Add(Me.lblPassing)
         Me.Controls.Add(Me.lblPercentage)
         Me.Controls.Add(Me.lblInfoPercentage)
@@ -112,8 +159,13 @@ Partial Class frmMain
         Me.Controls.Add(Me.txtMaxPoints)
         Me.Controls.Add(Me.txtTotalPoints)
         Me.Controls.Add(Me.lblInfoEarnedPoints)
+        Me.Controls.Add(Me.mnuMain)
+        Me.MainMenuStrip = Me.mnuMain
         Me.Name = "frmMain"
         Me.Text = "Grade Calculator"
+        Me.mnuMain.ResumeLayout(False)
+        Me.mnuMain.PerformLayout()
+        CType(Me.picGradingScale, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -127,4 +179,9 @@ Partial Class frmMain
     Friend WithEvents lblInfoPercentage As Label
     Friend WithEvents lblPercentage As Label
     Friend WithEvents lblPassing As Label
+    Friend WithEvents mnuMain As MenuStrip
+    Friend WithEvents mnuFile As ToolStripMenuItem
+    Friend WithEvents mnuExit As ToolStripMenuItem
+    Friend WithEvents mnuCalculate As ToolStripMenuItem
+    Friend WithEvents picGradingScale As PictureBox
 End Class

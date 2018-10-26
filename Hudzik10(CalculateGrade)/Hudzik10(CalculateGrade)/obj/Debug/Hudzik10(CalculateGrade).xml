@@ -22,5 +22,10 @@ Hudzik10(CalculateGrade)
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Hudzik10_CalculateGrade_.My.Resources.Resources.grscale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

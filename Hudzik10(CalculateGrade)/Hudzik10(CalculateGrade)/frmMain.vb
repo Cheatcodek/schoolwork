@@ -1,7 +1,7 @@
 ﻿Public Class frmMain 'Algorithm Step 1
 
 
-    Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+    Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click, mnuCalculate.Click
 
         Dim dblTotalPoints As Double
         Dim dblMaxPoints As Double ' Initializes variables (Algorithm Step 2 & 3)
@@ -14,14 +14,23 @@
 
         lblPercentage.Text = dblPercentage ' Algorithm Step 6
 
-        If dblPercentage >= 64 Then
-            lblPassing.Text = "You Passed !!"
-
-        Else
-            lblPassing.Text = "You FAILED !!!
+        Select Case dblPercentage   'Figures out the grade from percentage
+            Case 91.5 To 100
+                lblPassing.Text = "You Passed with an A !!"
+            Case 83.5 To 91.5
+                lblPassing.Text = "You Passed with a B !!"
+            Case 73.5 To 83.5
+                lblPassing.Text = "You passed with a C !!"
+            Case 63.5 To 73.5
+                lblPassing.Text = "You passed with a D !!"
+            Case 0 To 63.5
+                lblPassing.Text = "You FAILED !!!
 Study More"
-
-        End If
+            Case Else
+                lblPassing.Text = "Either I did something wrong
+You did something wrong
+Or something else messed up"
+        End Select
 
     End Sub
 
@@ -31,6 +40,11 @@ Study More"
         lblPercentage.Text = "" 'Changes text to nothing if text changed (Algorithm Step 7)
         lblPassing.Text = ""
 
+    End Sub
+
+
+    Private Sub mnuExit_Click(sender As Object, e As EventArgs) Handles mnuExit.Click
+        Application.Exit()
     End Sub
 
 End Class
