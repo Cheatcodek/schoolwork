@@ -36,7 +36,13 @@ Partial Class Form1
         Me.lblComputerWins = New System.Windows.Forms.Label()
         Me.lblInfoWhoVictory = New System.Windows.Forms.Label()
         Me.lblVictoryWho = New System.Windows.Forms.Label()
+        Me.lblInfoGamesPlayed = New System.Windows.Forms.Label()
+        Me.lblGamesPlayed = New System.Windows.Forms.Label()
+        Me.picUserSelection = New System.Windows.Forms.PictureBox()
+        Me.picCompSelection = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.picUserSelection, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picCompSelection, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -86,7 +92,7 @@ Partial Class Form1
         '
         'btnConfirm
         '
-        Me.btnConfirm.Location = New System.Drawing.Point(17, 220)
+        Me.btnConfirm.Location = New System.Drawing.Point(10, 219)
         Me.btnConfirm.Name = "btnConfirm"
         Me.btnConfirm.Size = New System.Drawing.Size(75, 37)
         Me.btnConfirm.TabIndex = 1
@@ -176,11 +182,51 @@ Partial Class Form1
         Me.lblVictoryWho.TabIndex = 10
         Me.lblVictoryWho.Text = "?"
         '
+        'lblInfoGamesPlayed
+        '
+        Me.lblInfoGamesPlayed.AutoSize = True
+        Me.lblInfoGamesPlayed.Location = New System.Drawing.Point(140, 2)
+        Me.lblInfoGamesPlayed.Name = "lblInfoGamesPlayed"
+        Me.lblInfoGamesPlayed.Size = New System.Drawing.Size(87, 13)
+        Me.lblInfoGamesPlayed.TabIndex = 11
+        Me.lblInfoGamesPlayed.Text = " Games Played : "
+        '
+        'lblGamesPlayed
+        '
+        Me.lblGamesPlayed.AutoSize = True
+        Me.lblGamesPlayed.Location = New System.Drawing.Point(162, 15)
+        Me.lblGamesPlayed.Name = "lblGamesPlayed"
+        Me.lblGamesPlayed.Size = New System.Drawing.Size(13, 13)
+        Me.lblGamesPlayed.TabIndex = 12
+        Me.lblGamesPlayed.Text = "0"
+        '
+        'picUserSelection
+        '
+        Me.picUserSelection.Location = New System.Drawing.Point(87, 149)
+        Me.picUserSelection.Name = "picUserSelection"
+        Me.picUserSelection.Size = New System.Drawing.Size(88, 75)
+        Me.picUserSelection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picUserSelection.TabIndex = 13
+        Me.picUserSelection.TabStop = False
+        '
+        'picCompSelection
+        '
+        Me.picCompSelection.Location = New System.Drawing.Point(227, 149)
+        Me.picCompSelection.Name = "picCompSelection"
+        Me.picCompSelection.Size = New System.Drawing.Size(91, 75)
+        Me.picCompSelection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picCompSelection.TabIndex = 14
+        Me.picCompSelection.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(391, 311)
+        Me.Controls.Add(Me.picCompSelection)
+        Me.Controls.Add(Me.picUserSelection)
+        Me.Controls.Add(Me.lblGamesPlayed)
+        Me.Controls.Add(Me.lblInfoGamesPlayed)
         Me.Controls.Add(Me.lblVictoryWho)
         Me.Controls.Add(Me.lblInfoWhoVictory)
         Me.Controls.Add(Me.lblComputerWins)
@@ -196,6 +242,8 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.picUserSelection, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picCompSelection, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -215,4 +263,8 @@ Partial Class Form1
     Friend WithEvents lblComputerWins As Label
     Friend WithEvents lblInfoWhoVictory As Label
     Friend WithEvents lblVictoryWho As Label
+    Friend WithEvents lblInfoGamesPlayed As Label
+    Friend WithEvents lblGamesPlayed As Label
+    Friend WithEvents picUserSelection As PictureBox
+    Friend WithEvents picCompSelection As PictureBox
 End Class

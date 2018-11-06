@@ -118,5 +118,17 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uci_news_image_download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20271160225_bd77c6fb52_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterSolublePaper_WSP_Main_A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12InchChromeLarge.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
