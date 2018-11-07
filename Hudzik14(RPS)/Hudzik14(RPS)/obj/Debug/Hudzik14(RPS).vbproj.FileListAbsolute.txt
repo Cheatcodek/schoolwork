@@ -3,10 +3,10 @@ C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\bin\Debug\Hudzik14(RPS).exe
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\bin\Debug\Hudzik14(RPS).pdb
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\bin\Debug\Hudzik14(RPS).xml
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).vbprojAssemblyReference.cache
-C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14_RPS_.Form1.resources
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14_RPS_.Resources.resources
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).vbproj.GenerateResource.cache
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).vbproj.CoreCompileInputs.cache
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).exe
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).xml
 C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14(RPS).pdb
+C:\Users\106307\Desktop\Hudzik14(RPS)\Hudzik14(RPS)\obj\Debug\Hudzik14_RPS_.frmMain.resources

@@ -22,5 +22,20 @@ Hudzik14(RPS)
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Hudzik14_RPS_.My.Resources.Resources.pape">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik14_RPS_.My.Resources.Resources.rok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik14_RPS_.My.Resources.Resources.scissr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
