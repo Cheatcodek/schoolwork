@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\bin\Debug\Hudzik15(VGO).exe.config
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\bin\Debug\Hudzik15(VGO).exe
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\bin\Debug\Hudzik15(VGO).pdb
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\bin\Debug\Hudzik15(VGO).xml
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15_VGO_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15_VGO_.Resources.resources
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).exe
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).xml
+C:\Users\106307\Desktop\Hudzik15(VGO)\Hudzik15(VGO)\obj\Debug\Hudzik15(VGO).pdb
