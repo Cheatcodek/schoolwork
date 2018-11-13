@@ -4,11 +4,32 @@
 
     Private Sub btnOrder_Click(sender As Object, e As EventArgs) Handles btnOrder.Click
 
-        Dim intFirstGameAmount As Integer = Val(txtFirstGame)
-        Dim intSecondGameAmout As Integer = Val(txtSecondGame) 'Initializes variables and sets them
-        Dim intThirdGameAmount As Integer = Val(txtThirdGame)
+        Dim intFirstGameAmount As Integer = System.Math.Abs(Val(txtFirstGame.Text))
+        Dim intSecondGameAmout As Integer = System.Math.Abs(Val(txtSecondGame.Text)) 'Initializes variables and sets them as the absolute value of them, because someones gonna be weird enough to put a negative number in there
+        Dim intThirdGameAmount As Integer = System.Math.Abs(Val(txtThirdGame.Text))
+
+        Dim intTotalOrdered As Integer = intFirstGameAmount + intSecondGameAmout + intThirdGameAmount
+        Dim decIntitialPrice As Decimal = intTotalOrdered * 59.99
+        Dim decAmountTaxed As Decimal = Math.Round((decIntitialPrice * 0.0675), 2, MidpointRounding.AwayFromZero)
+
+        Dim intBoxesShipped As Integer
+        Dim intEnvelopesShipped As Integer
+        Dim decEnvelopePrice As Decimal 'Boxes doesn't need to be changed here as it is the same price as amount used
 
 
+
+        lblAmountOrdered.Text = intTotalOrdered
+        lblInitialAmount.Text = "$" & decIntitialPrice
+        lblTax.Text = "$" & decAmountTaxed
+
+        intBoxesShipped = intTotalOrdered \ 3
+        intEnvelopesShipped = intTotalOrdered Mod 3
+        decEnvelopePrice = intEnvelopesShipped * 0.5
+
+        lblBoxesAmount.Text = intBoxesShipped
+        lblEnvelopeAmount.Text = intEnvelopesShipped
+        lblShippingBoxPrice.Text = "$" & intBoxesShipped
+        lblEnvelopePrice.Text = "$" & decEnvelopePrice
 
 
     End Sub

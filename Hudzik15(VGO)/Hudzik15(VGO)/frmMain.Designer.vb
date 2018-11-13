@@ -45,6 +45,8 @@ Partial Class frmMain
         Me.lblInfoEnvelopes = New System.Windows.Forms.Label()
         Me.lblEnvelopeAmount = New System.Windows.Forms.Label()
         Me.lblEnvelopePrice = New System.Windows.Forms.Label()
+        Me.lblInfoTotal = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
         Me.grpPlatform.SuspendLayout()
         CType(Me.picThirdGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSecondGame, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -150,9 +152,9 @@ Partial Class frmMain
         Me.lblInfoPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInfoPrice.Location = New System.Drawing.Point(260, 112)
         Me.lblInfoPrice.Name = "lblInfoPrice"
-        Me.lblInfoPrice.Size = New System.Drawing.Size(87, 9)
+        Me.lblInfoPrice.Size = New System.Drawing.Size(97, 9)
         Me.lblInfoPrice.TabIndex = 8
-        Me.lblInfoPrice.Text = "*Every Game Costs $60"
+        Me.lblInfoPrice.Text = "*Every Game Costs $59.99"
         '
         'lblInfoRecipt
         '
@@ -266,11 +268,34 @@ Partial Class frmMain
         Me.lblEnvelopePrice.TabIndex = 20
         Me.lblEnvelopePrice.Text = "?"
         '
+        'lblInfoTotal
+        '
+        Me.lblInfoTotal.AutoSize = True
+        Me.lblInfoTotal.Location = New System.Drawing.Point(501, 347)
+        Me.lblInfoTotal.Name = "lblInfoTotal"
+        Me.lblInfoTotal.Size = New System.Drawing.Size(31, 13)
+        Me.lblInfoTotal.TabIndex = 21
+        Me.lblInfoTotal.Text = "Total"
+        '
+        'lblTotal
+        '
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lblTotal.Location = New System.Drawing.Point(626, 347)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotal.TabIndex = 22
+        Me.lblTotal.Text = "?"
+        Me.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'frmMain
         '
+        Me.AcceptButton = Me.btnOrder
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(698, 406)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblInfoTotal)
         Me.Controls.Add(Me.lblEnvelopePrice)
         Me.Controls.Add(Me.lblEnvelopeAmount)
         Me.Controls.Add(Me.lblInfoEnvelopes)
@@ -327,4 +352,6 @@ Partial Class frmMain
     Friend WithEvents lblInfoEnvelopes As Label
     Friend WithEvents lblEnvelopeAmount As Label
     Friend WithEvents lblEnvelopePrice As Label
+    Friend WithEvents lblInfoTotal As Label
+    Friend WithEvents lblTotal As Label
 End Class
