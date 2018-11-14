@@ -47,10 +47,18 @@ Partial Class frmMain
         Me.lblEnvelopePrice = New System.Windows.Forms.Label()
         Me.lblInfoTotal = New System.Windows.Forms.Label()
         Me.lblTotal = New System.Windows.Forms.Label()
+        Me.mnuMain = New System.Windows.Forms.MenuStrip()
+        Me.mnuFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuSelect = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuOrder = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuXboxOne = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuPlaystation4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.grpPlatform.SuspendLayout()
         CType(Me.picThirdGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSecondGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picFirstGame, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpPlatform
@@ -288,6 +296,53 @@ Partial Class frmMain
         Me.lblTotal.Text = "?"
         Me.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
+        'mnuMain
+        '
+        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFile})
+        Me.mnuMain.Location = New System.Drawing.Point(0, 0)
+        Me.mnuMain.Name = "mnuMain"
+        Me.mnuMain.Size = New System.Drawing.Size(698, 24)
+        Me.mnuMain.TabIndex = 23
+        Me.mnuMain.Text = "MenuStrip1"
+        '
+        'mnuFile
+        '
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSelect, Me.mnuOrder, Me.mnuExit})
+        Me.mnuFile.Name = "mnuFile"
+        Me.mnuFile.Size = New System.Drawing.Size(37, 20)
+        Me.mnuFile.Text = "File"
+        '
+        'mnuSelect
+        '
+        Me.mnuSelect.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuXboxOne, Me.mnuPlaystation4})
+        Me.mnuSelect.Name = "mnuSelect"
+        Me.mnuSelect.Size = New System.Drawing.Size(180, 22)
+        Me.mnuSelect.Text = "Select"
+        '
+        'mnuOrder
+        '
+        Me.mnuOrder.Name = "mnuOrder"
+        Me.mnuOrder.Size = New System.Drawing.Size(180, 22)
+        Me.mnuOrder.Text = "Order"
+        '
+        'mnuExit
+        '
+        Me.mnuExit.Name = "mnuExit"
+        Me.mnuExit.Size = New System.Drawing.Size(180, 22)
+        Me.mnuExit.Text = "Exit"
+        '
+        'mnuXboxOne
+        '
+        Me.mnuXboxOne.Name = "mnuXboxOne"
+        Me.mnuXboxOne.Size = New System.Drawing.Size(180, 22)
+        Me.mnuXboxOne.Text = "Xbox One"
+        '
+        'mnuPlaystation4
+        '
+        Me.mnuPlaystation4.Name = "mnuPlaystation4"
+        Me.mnuPlaystation4.Size = New System.Drawing.Size(180, 22)
+        Me.mnuPlaystation4.Text = "Playstation 4"
+        '
         'frmMain
         '
         Me.AcceptButton = Me.btnOrder
@@ -317,6 +372,8 @@ Partial Class frmMain
         Me.Controls.Add(Me.txtFirstGame)
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.grpPlatform)
+        Me.Controls.Add(Me.mnuMain)
+        Me.MainMenuStrip = Me.mnuMain
         Me.Name = "frmMain"
         Me.Text = "Video Game Order"
         Me.grpPlatform.ResumeLayout(False)
@@ -324,6 +381,8 @@ Partial Class frmMain
         CType(Me.picThirdGame, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSecondGame, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picFirstGame, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.mnuMain.ResumeLayout(False)
+        Me.mnuMain.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -354,4 +413,11 @@ Partial Class frmMain
     Friend WithEvents lblEnvelopePrice As Label
     Friend WithEvents lblInfoTotal As Label
     Friend WithEvents lblTotal As Label
+    Friend WithEvents mnuMain As MenuStrip
+    Friend WithEvents mnuFile As ToolStripMenuItem
+    Friend WithEvents mnuSelect As ToolStripMenuItem
+    Friend WithEvents mnuXboxOne As ToolStripMenuItem
+    Friend WithEvents mnuPlaystation4 As ToolStripMenuItem
+    Friend WithEvents mnuOrder As ToolStripMenuItem
+    Friend WithEvents mnuExit As ToolStripMenuItem
 End Class
