@@ -54,6 +54,8 @@ Partial Class frmMain
         Me.btnWager = New System.Windows.Forms.Button()
         Me.lblInfoTotalWager = New System.Windows.Forms.Label()
         Me.lblTotalWager = New System.Windows.Forms.Label()
+        Me.lblInfoPoints = New System.Windows.Forms.Label()
+        Me.lblPoints = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.picUserSelection, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCompSelection, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -251,19 +253,19 @@ Partial Class frmMain
         'mnuSave
         '
         Me.mnuSave.Name = "mnuSave"
-        Me.mnuSave.Size = New System.Drawing.Size(180, 22)
+        Me.mnuSave.Size = New System.Drawing.Size(100, 22)
         Me.mnuSave.Text = "Save"
         '
         'mnuLoad
         '
         Me.mnuLoad.Name = "mnuLoad"
-        Me.mnuLoad.Size = New System.Drawing.Size(180, 22)
+        Me.mnuLoad.Size = New System.Drawing.Size(100, 22)
         Me.mnuLoad.Text = "Load"
         '
         'mnuExit
         '
         Me.mnuExit.Name = "mnuExit"
-        Me.mnuExit.Size = New System.Drawing.Size(180, 22)
+        Me.mnuExit.Size = New System.Drawing.Size(100, 22)
         Me.mnuExit.Text = "Exit"
         '
         'mnuSelection
@@ -336,12 +338,32 @@ Partial Class frmMain
         Me.lblTotalWager.TabIndex = 19
         Me.lblTotalWager.Text = "0"
         '
+        'lblInfoPoints
+        '
+        Me.lblInfoPoints.AutoSize = True
+        Me.lblInfoPoints.Location = New System.Drawing.Point(278, 24)
+        Me.lblInfoPoints.Name = "lblInfoPoints"
+        Me.lblInfoPoints.Size = New System.Drawing.Size(67, 13)
+        Me.lblInfoPoints.TabIndex = 20
+        Me.lblInfoPoints.Text = "Your Points :"
+        '
+        'lblPoints
+        '
+        Me.lblPoints.AutoSize = True
+        Me.lblPoints.Location = New System.Drawing.Point(306, 42)
+        Me.lblPoints.Name = "lblPoints"
+        Me.lblPoints.Size = New System.Drawing.Size(13, 13)
+        Me.lblPoints.TabIndex = 21
+        Me.lblPoints.Text = "0"
+        '
         'frmMain
         '
         Me.AcceptButton = Me.btnConfirm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(357, 293)
+        Me.Controls.Add(Me.lblPoints)
+        Me.Controls.Add(Me.lblInfoPoints)
         Me.Controls.Add(Me.lblTotalWager)
         Me.Controls.Add(Me.lblInfoTotalWager)
         Me.Controls.Add(Me.btnWager)
@@ -408,4 +430,6 @@ Partial Class frmMain
     Friend WithEvents btnWager As Button
     Friend WithEvents lblInfoTotalWager As Label
     Friend WithEvents lblTotalWager As Label
+    Friend WithEvents lblInfoPoints As Label
+    Friend WithEvents lblPoints As Label
 End Class

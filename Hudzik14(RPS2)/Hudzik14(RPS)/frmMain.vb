@@ -32,7 +32,7 @@
             Case radScissors.Checked
                 intUserSelection = 3
             Case Else
-                MsgBox("You Need to select something!!") 'In case the user somehow manages to select nothing
+                MessageBox.Show("You Need to select something!!") 'In case the user somehow manages to select nothing
         End Select
 
         intCompSelection = objRandom.Next(1, 4)
@@ -110,20 +110,20 @@
 
 
         If bolTie = True Then 'Increments variables based on if tied and who won
-            MsgBox("It's A Tie!")
+            MessageBox.Show("It's A Tie!")
         ElseIf bolUserWins = True Then
             intUserWins += 1
-            MsgBox("You won this game!")
+            MessageBox.Show("You won this game!")
             intPoints += intWager
         ElseIf bolUserWins = False Then
             intCompWins += 1
-            MsgBox("You lost this game!")
+            MessageBox.Show("You lost this game!")
             intPoints -= intWager
         End If
 
-        lblUserWins.Text = intUserWins 'Displays answers (Algorithm step 6)
-        lblComputerWins.Text = intCompWins
-        lblGamesPlayed.Text = intGamesPlayed
+        intWager = 0
+
+        Call Display()
 
     End Sub
 
@@ -157,6 +157,7 @@
         Write.WriteLine(intGamesPlayed)
         Write.WriteLine(intUserWins)  'Write the variables to the lines
         Write.WriteLine(intCompWins)
+        Write.WriteLine(intPoints)
         Write.Close()
 
     End Sub
@@ -164,20 +165,37 @@
     Private Sub mnuLoad_Click(sender As Object, e As EventArgs) Handles mnuLoad.Click
 
         Dim FP As String = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\Documents\RPS.txt" 'Finds file path
+        If Not System.IO.File.Exists(FP) Then 'If the file doesn't exist, throw error and exit sub procedure
+            MessageBox.Show("No file to load!", "RPS", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Exit Sub
+        End If
         Dim Read As New System.IO.StreamReader(FP) 'Sets read as the path reader
-        Do While Read.Peek() <> -1 'After its done reading the file, it will return a -1, therefor we stop looping when -1 is returned
 
+        Do While Read.Peek() <> -1 'After its done reading the file, it will return a -1, therefor we stop looping when -1 is returned
+            'It's looped just to make sure that it reads everything, it could be done without a loop but it's better to make sure
             intGamesPlayed = Read.ReadLine()
             intUserWins = Read.ReadLine() 'Reads the lines and sets the variables
             intCompWins = Read.ReadLine()
+            intPoints = Read.ReadLine()
 
         Loop
 
-        lblGamesPlayed.Text = intGamesPlayed
+        Read.Close() 'File needs to be closed in order to be used again
+
+        Call Display()
     End Sub
 
 
 #End Region
+
+    Sub Display()
+        lblUserWins.Text = intUserWins 'Displays answers (Algorithm step 6)
+        lblComputerWins.Text = intCompWins
+        lblGamesPlayed.Text = intGamesPlayed
+        lblPoints.Text = intPoints
+        lblTotalWager.Text = intWager
+
+    End Sub
 
     Private Sub chkGraphics_CheckedChanged(sender As Object, e As EventArgs) Handles chkGraphics.CheckedChanged
         picUserSelection.Image = Nothing
