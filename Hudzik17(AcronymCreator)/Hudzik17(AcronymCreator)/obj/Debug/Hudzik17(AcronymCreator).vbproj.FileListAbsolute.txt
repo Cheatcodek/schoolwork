@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\bin\Debug\Hudzik17(AcronymCreator).exe.config
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\bin\Debug\Hudzik17(AcronymCreator).exe
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\bin\Debug\Hudzik17(AcronymCreator).pdb
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\bin\Debug\Hudzik17(AcronymCreator).xml
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17_AcronymCreator_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17_AcronymCreator_.Resources.resources
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).exe
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).xml
+C:\Users\106307\Desktop\Hudzik17(AcronymCreator)\Hudzik17(AcronymCreator)\obj\Debug\Hudzik17(AcronymCreator).pdb
