@@ -1,0 +1,13 @@
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\bin\Debug\Hudzik20(FirstFinal).exe.config
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\bin\Debug\Hudzik20(FirstFinal).exe
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\bin\Debug\Hudzik20(FirstFinal).pdb
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\bin\Debug\Hudzik20(FirstFinal).xml
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20_FirstFinal_.Resources.resources
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).exe
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).xml
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).pdb
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20_FirstFinal_.frmMainMenu.resources
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20_FirstFinal_.frmGame.resources
