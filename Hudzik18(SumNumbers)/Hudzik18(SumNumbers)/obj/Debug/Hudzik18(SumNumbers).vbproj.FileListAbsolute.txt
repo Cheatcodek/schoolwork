@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\bin\Debug\Hudzik18(SumNumbers).exe.config
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\bin\Debug\Hudzik18(SumNumbers).exe
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\bin\Debug\Hudzik18(SumNumbers).pdb
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\bin\Debug\Hudzik18(SumNumbers).xml
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18_SumNumbers_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18_SumNumbers_.Resources.resources
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).exe
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).xml
+C:\Users\106307\Desktop\Hudzik18(SumNumbers)\Hudzik18(SumNumbers)\obj\Debug\Hudzik18(SumNumbers).pdb

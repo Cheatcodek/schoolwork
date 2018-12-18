@@ -1,0 +1,24 @@
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).exe.config
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).pdb
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbprojAssemblyReference.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19_LetterCounter_.Form1.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19_LetterCounter_.Resources.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbproj.GenerateResource.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbproj.CoreCompileInputs.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).pdb
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).exe.config
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).exe
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).pdb
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\bin\Debug\Hudzik19(LetterCounter).xml
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19_LetterCounter_.Form1.resources
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19_LetterCounter_.Resources.resources
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).exe
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).xml
+C:\Users\106307\Desktop\Hudzik19(LetterCounter)\Hudzik19(LetterCounter)\obj\Debug\Hudzik19(LetterCounter).pdb
