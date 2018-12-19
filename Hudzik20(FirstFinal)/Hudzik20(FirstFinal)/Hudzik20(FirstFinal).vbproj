@@ -130,5 +130,14 @@
   <ItemGroup>
     <None Include="Resources\placeholder.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="CaR.txt" />
+    <None Include="Resources\Die6.bmp" />
+    <None Include="Resources\Die5.bmp" />
+    <None Include="Resources\Die4.bmp" />
+    <None Include="Resources\Die3.bmp" />
+    <None Include="Resources\Die2.bmp" />
+    <None Include="Resources\Die1.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

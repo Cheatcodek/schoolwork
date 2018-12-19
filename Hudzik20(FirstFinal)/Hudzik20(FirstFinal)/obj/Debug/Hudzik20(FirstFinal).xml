@@ -22,6 +22,36 @@ Hudzik20(FirstFinal)
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.Die6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.placeholder">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

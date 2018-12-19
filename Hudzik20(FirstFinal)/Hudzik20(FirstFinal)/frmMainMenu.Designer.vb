@@ -22,44 +22,44 @@ Partial Class frmMainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnStartGame = New System.Windows.Forms.Button()
+        Me.picCenterpiece = New System.Windows.Forms.PictureBox()
+        CType(Me.picCenterpiece, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnStartGame
         '
-        Me.Button1.Location = New System.Drawing.Point(80, 133)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(105, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Start Game"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnStartGame.Location = New System.Drawing.Point(80, 133)
+        Me.btnStartGame.Name = "btnStartGame"
+        Me.btnStartGame.Size = New System.Drawing.Size(105, 23)
+        Me.btnStartGame.TabIndex = 0
+        Me.btnStartGame.Text = "Start Game"
+        Me.btnStartGame.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'picCenterpiece
         '
-        Me.PictureBox1.Image = Global.Hudzik20_FirstFinal_.My.Resources.Resources.placeholder
-        Me.PictureBox1.Location = New System.Drawing.Point(38, 26)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(178, 89)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.picCenterpiece.Image = Global.Hudzik20_FirstFinal_.My.Resources.Resources.placeholder
+        Me.picCenterpiece.Location = New System.Drawing.Point(38, 26)
+        Me.picCenterpiece.Name = "picCenterpiece"
+        Me.picCenterpiece.Size = New System.Drawing.Size(178, 89)
+        Me.picCenterpiece.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picCenterpiece.TabIndex = 1
+        Me.picCenterpiece.TabStop = False
         '
         'frmMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(268, 189)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.picCenterpiece)
+        Me.Controls.Add(Me.btnStartGame)
         Me.Name = "frmMainMenu"
         Me.Text = "VBFarkle Main Menu"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picCenterpiece, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnStartGame As Button
+    Friend WithEvents picCenterpiece As PictureBox
 End Class
