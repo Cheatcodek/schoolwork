@@ -8,11 +8,11 @@ Check boxes
 Menu Strip items ✓                       
 Picture Boxes ✓                                
 String Methods (e.g. ToUpper)     
-Message Box                            
+Message Box ✓                        
 Input Box
 Declaration Statements (Dim or Const or Static) ✓
-Randomization (Random Numbers)
-If/Then Statements                            
+Randomization (Random Numbers) ✓
+If/Then Statements  ✓                          
 Select Case Statements ✓
 Do While or Do Until Loops
 For Next Looping Statements

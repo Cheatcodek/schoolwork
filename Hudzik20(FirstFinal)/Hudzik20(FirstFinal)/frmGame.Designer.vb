@@ -43,8 +43,8 @@ Partial Class frmGame
         Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuGame = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuInstructions = New System.Windows.Forms.ToolStripMenuItem()
-        Me.btnEndTurn = New System.Windows.Forms.Button()
         Me.mnuAbout = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnEndTurn = New System.Windows.Forms.Button()
         Me.lblDieSelected1 = New System.Windows.Forms.Label()
         Me.lblDieSelected2 = New System.Windows.Forms.Label()
         Me.lblDieSelected3 = New System.Windows.Forms.Label()
@@ -57,6 +57,7 @@ Partial Class frmGame
         Me.lblInfoDie4 = New System.Windows.Forms.Label()
         Me.lblInfoDie5 = New System.Windows.Forms.Label()
         Me.lblInfoDie6 = New System.Windows.Forms.Label()
+        Me.btnCount = New System.Windows.Forms.Button()
         CType(Me.picDie6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDie5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDie4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -122,18 +123,18 @@ Partial Class frmGame
         '
         'btnConfirm
         '
-        Me.btnConfirm.Location = New System.Drawing.Point(18, 225)
+        Me.btnConfirm.Location = New System.Drawing.Point(14, 225)
         Me.btnConfirm.Name = "btnConfirm"
-        Me.btnConfirm.Size = New System.Drawing.Size(75, 23)
+        Me.btnConfirm.Size = New System.Drawing.Size(69, 23)
         Me.btnConfirm.TabIndex = 6
         Me.btnConfirm.Text = "Confirm"
         Me.btnConfirm.UseVisualStyleBackColor = True
         '
         'btnDeselect
         '
-        Me.btnDeselect.Location = New System.Drawing.Point(99, 225)
+        Me.btnDeselect.Location = New System.Drawing.Point(83, 225)
         Me.btnDeselect.Name = "btnDeselect"
-        Me.btnDeselect.Size = New System.Drawing.Size(75, 23)
+        Me.btnDeselect.Size = New System.Drawing.Size(74, 23)
         Me.btnDeselect.TabIndex = 13
         Me.btnDeselect.Text = "Deselect"
         Me.btnDeselect.UseVisualStyleBackColor = True
@@ -223,7 +224,7 @@ Partial Class frmGame
         'mnuExit
         '
         Me.mnuExit.Name = "mnuExit"
-        Me.mnuExit.Size = New System.Drawing.Size(180, 22)
+        Me.mnuExit.Size = New System.Drawing.Size(92, 22)
         Me.mnuExit.Text = "Exit"
         '
         'mnuGame
@@ -236,23 +237,23 @@ Partial Class frmGame
         'mnuInstructions
         '
         Me.mnuInstructions.Name = "mnuInstructions"
-        Me.mnuInstructions.Size = New System.Drawing.Size(180, 22)
+        Me.mnuInstructions.Size = New System.Drawing.Size(136, 22)
         Me.mnuInstructions.Text = "Instructions"
-        '
-        'btnEndTurn
-        '
-        Me.btnEndTurn.Location = New System.Drawing.Point(181, 225)
-        Me.btnEndTurn.Name = "btnEndTurn"
-        Me.btnEndTurn.Size = New System.Drawing.Size(75, 23)
-        Me.btnEndTurn.TabIndex = 17
-        Me.btnEndTurn.Text = "End Turn"
-        Me.btnEndTurn.UseVisualStyleBackColor = True
         '
         'mnuAbout
         '
         Me.mnuAbout.Name = "mnuAbout"
-        Me.mnuAbout.Size = New System.Drawing.Size(180, 22)
+        Me.mnuAbout.Size = New System.Drawing.Size(136, 22)
         Me.mnuAbout.Text = "About"
+        '
+        'btnEndTurn
+        '
+        Me.btnEndTurn.Location = New System.Drawing.Point(232, 225)
+        Me.btnEndTurn.Name = "btnEndTurn"
+        Me.btnEndTurn.Size = New System.Drawing.Size(76, 23)
+        Me.btnEndTurn.TabIndex = 17
+        Me.btnEndTurn.Text = "End Turn"
+        Me.btnEndTurn.UseVisualStyleBackColor = True
         '
         'lblDieSelected1
         '
@@ -368,11 +369,21 @@ Partial Class frmGame
         Me.lblInfoDie6.TabIndex = 29
         Me.lblInfoDie6.Text = "6"
         '
+        'btnCount
+        '
+        Me.btnCount.Location = New System.Drawing.Point(156, 225)
+        Me.btnCount.Name = "btnCount"
+        Me.btnCount.Size = New System.Drawing.Size(76, 23)
+        Me.btnCount.TabIndex = 30
+        Me.btnCount.Text = "Take"
+        Me.btnCount.UseVisualStyleBackColor = True
+        '
         'frmGame
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(320, 312)
+        Me.Controls.Add(Me.btnCount)
         Me.Controls.Add(Me.lblInfoDie6)
         Me.Controls.Add(Me.lblInfoDie5)
         Me.Controls.Add(Me.lblInfoDie4)
@@ -454,4 +465,5 @@ Partial Class frmGame
     Friend WithEvents lblInfoDie4 As Label
     Friend WithEvents lblInfoDie5 As Label
     Friend WithEvents lblInfoDie6 As Label
+    Friend WithEvents btnCount As Button
 End Class

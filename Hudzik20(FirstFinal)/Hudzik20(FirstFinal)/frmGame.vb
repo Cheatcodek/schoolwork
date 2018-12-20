@@ -4,6 +4,7 @@
     Dim dictDice As New Dictionary(Of Integer, Integer)
     Dim dictSelection As New Dictionary(Of Integer, Boolean)
     Dim dictDieEnabled As New Dictionary(Of Integer, Boolean)
+    Dim dictDieSaved As New Dictionary(Of Integer, Boolean)
     Dim intPoints As Integer
     Dim intPointGain As Integer
 
@@ -136,30 +137,28 @@
     Sub PointCount()
         Dim bolEndOfCount As Boolean = False
 
-        While bolEndOfCount = True
-            'Check for ones
-            For intThrow As Integer = 0 To 6
-                If (dictDieEnabled(intThrow) = True) & (dictDice(intThrow) = 1) Then
+        'Check for ones
+        For intThrow As Integer = 1 To 6
+                If (dictSelection.ContainsKey(intThrow)) And (dictDice(intThrow) = 1) Then
                     intPointGain += 100
                 End If
             Next
             'Check for fives
-            For intThrow As Integer = 0 To 6
-                If (dictDieEnabled(intThrow) = True) & (dictDice(intThrow) = 5) Then
+            For intThrow As Integer = 1 To 6
+                If (dictSelection.ContainsKey(intThrow)) And (dictDice(intThrow) = 5) Then
                     intPointGain += 50
                 End If
             Next
             'Temporary, used for checking triple numbers
             Dim intTripling As Integer 'used to check for tripling, use for when equals 3
-            For intThrow As Integer = 0 To 6
-                If (dictDieEnabled(intThrow) = True) & (dictDice(intThrow) = intThrow) Then
+            For intThrow As Integer = 1 To 6
+                If (dictSelection.ContainsKey(intThrow)) And (dictDice(intThrow) = intThrow) Then
 
                     intPointGain += intThrow * 100
 
                 End If
             Next
 
-        End While
 
     End Sub
 #End Region
@@ -170,16 +169,16 @@
     End Sub
 
     Private Sub btnEndTurn_Click(sender As Object, e As EventArgs) Handles btnEndTurn.Click
-        'Call PointCount()
-        Dim bolMsgBoxResult As Boolean = MessageBox.Show("You will get " & intPointGain & " Points from this" & vbNewLine & "Continue?", "VBFarkle", MessageBoxButtons.YesNo)
+        Call PointCount()
+        Dim msgBoxResult = MessageBox.Show("You will get " & intPointGain & " Points from this" & vbNewLine & "Continue?", "VBFarkle", MessageBoxButtons.YesNo)
 
-        If bolMsgBoxResult = True Then
+        If msgBoxResult = DialogResult.Yes Then
             intPoints += intPointGain
             Call Roll()
             Call CreateImages()
             Call Deselect()
             intPointGain = 0
-        ElseIf bolMsgBoxResult = False Then
+        ElseIf msgBoxResult = DialogResult.No Then
             Exit Sub
         End If
     End Sub
