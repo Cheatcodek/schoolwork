@@ -263,4 +263,7 @@
         Next
     End Sub
 
+    Private Sub mnuAbout_Click(sender As Object, e As EventArgs) Handles mnuAbout.Click
+        frmAboutGame.Show()
+    End Sub
 End Class

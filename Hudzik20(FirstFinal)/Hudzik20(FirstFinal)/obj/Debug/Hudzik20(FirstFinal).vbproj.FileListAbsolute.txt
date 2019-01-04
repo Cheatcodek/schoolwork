@@ -24,3 +24,4 @@ C:\Users\Kylie\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzi
 C:\Users\Kylie\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).exe
 C:\Users\Kylie\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).xml
 C:\Users\Kylie\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20(FirstFinal).pdb
+C:\Users\106307\Desktop\Hudzik20(FirstFinal)\Hudzik20(FirstFinal)\obj\Debug\Hudzik20_FirstFinal_.frmAboutGame.resources

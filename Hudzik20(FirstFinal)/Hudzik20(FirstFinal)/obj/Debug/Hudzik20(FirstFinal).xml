@@ -52,6 +52,11 @@ Hudzik20(FirstFinal)
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.FarkleDiceTable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Hudzik20_FirstFinal_.My.Resources.Resources.placeholder">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

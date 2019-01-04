@@ -410,7 +410,7 @@ Partial Class frmGame
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.mnuMainGame
         Me.Name = "frmGame"
-        Me.Text = "frmMainGame"
+        Me.Text = "VBFarkle"
         Me.mnuMainGame.ResumeLayout(False)
         Me.mnuMainGame.PerformLayout()
         CType(Me.picDie6, System.ComponentModel.ISupportInitialize).EndInit()

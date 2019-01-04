@@ -75,6 +75,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAboutGame.Designer.vb">
+      <DependentUpon>frmAboutGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmGame.Designer.vb">
       <DependentUpon>frmGame.vb</DependentUpon>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAboutGame.resx">
+      <DependentUpon>frmAboutGame.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGame.resx">
       <DependentUpon>frmGame.vb</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CaR.txt" />
+    <None Include="Resources\FarkleDiceTable.png" />
     <Content Include="wowcat.ico" />
     <None Include="Resources\Die6.bmp" />
     <None Include="Resources\Die5.bmp" />
