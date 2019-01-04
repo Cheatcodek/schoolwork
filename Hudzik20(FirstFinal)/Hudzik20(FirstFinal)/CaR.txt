@@ -3,26 +3,26 @@
 Labels ✓                                      
 Buttons ✓
 Radio Buttons                                        
-Text Boxes 
-Check boxes                                 
+Text Boxes ✓
+Check boxes ✓                                
 Menu Strip items ✓                       
 Picture Boxes ✓                                
-String Methods (e.g. ToUpper)     
+String Methods (e.g. ToUpper) ✓    
 Message Box ✓                        
-Input Box
+Input Box ✓
 Declaration Statements (Dim or Const or Static) ✓
 Randomization (Random Numbers) ✓
 If/Then Statements  ✓                          
 Select Case Statements ✓
-Do While or Do Until Loops
-For Next Looping Statements
-Event Handler for multiple events
-Sub Procedures
-Functions (e.g. Val, Int, etc.)
-String Concatenation
-Enabled Property
+Do While or Do Until Loops ---
+For Next Looping Statements ✓
+Event Handler for multiple events ✓
+Sub Procedures ✓
+Functions (e.g. Val, Int, etc.) ✓
+String Concatenation ✓
+Enabled Property ✓
 Visible Property ✓
-Form Icon
+Form Icon ✓
 
 
 To Do  :

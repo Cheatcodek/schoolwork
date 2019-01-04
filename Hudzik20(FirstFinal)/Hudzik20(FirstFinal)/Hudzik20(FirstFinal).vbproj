@@ -46,6 +46,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>wowcat.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -132,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CaR.txt" />
+    <Content Include="wowcat.ico" />
     <None Include="Resources\Die6.bmp" />
     <None Include="Resources\Die5.bmp" />
     <None Include="Resources\Die4.bmp" />
