@@ -51,6 +51,7 @@ Partial Class frmMainMenu
         'picCenterpiece
         '
         Me.picCenterpiece.ErrorImage = Global.Hudzik20_FirstFinal_.My.Resources.Resources.placeholder
+        Me.picCenterpiece.Image = Global.Hudzik20_FirstFinal_.My.Resources.Resources.TitleScreenImage
         Me.picCenterpiece.InitialImage = Global.Hudzik20_FirstFinal_.My.Resources.Resources.placeholder
         Me.picCenterpiece.Location = New System.Drawing.Point(38, 26)
         Me.picCenterpiece.Name = "picCenterpiece"

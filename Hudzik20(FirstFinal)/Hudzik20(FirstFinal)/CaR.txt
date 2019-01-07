@@ -2,8 +2,8 @@
 
 Labels ✓                                      
 Buttons ✓
-Radio Buttons                                        
-Text Boxes ✓
+Radio Buttons ---                                
+Text Boxes ---
 Check boxes ✓                                
 Menu Strip items ✓                       
 Picture Boxes ✓                                
@@ -26,5 +26,5 @@ Form Icon ✓
 
 
 To Do  :
-	Add a "How to play" form
-	Make the actual game (kek)
+	Add a "How to play" form ✓
+	Make the actual game (kek) ✓

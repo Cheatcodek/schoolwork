@@ -145,6 +145,7 @@
   <ItemGroup>
     <Content Include="CaR.txt" />
     <None Include="Resources\FarkleDiceTable.png" />
+    <None Include="Resources\TitleScreenImage.bmp" />
     <Content Include="wowcat.ico" />
     <None Include="Resources\Die6.bmp" />
     <None Include="Resources\Die5.bmp" />
