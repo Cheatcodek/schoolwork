@@ -11,11 +11,11 @@
 
 #Region "Calling Subs"
     Sub Roll() 'Removes and then rolls the results of the dice
-        For intYeet = 1 To 6
-            dictDice.Remove(intYeet)
+        For i = 1 To 6
+            dictDice.Remove(i)
         Next
-        For intYeet = 1 To 6
-            dictDice.Add(intYeet, objRandom.Next(1, 7))
+        For i = 1 To 6
+            dictDice.Add(i, objRandom.Next(1, 7))
         Next
     End Sub
 
@@ -114,12 +114,10 @@
     End Sub
 
     Sub Deselect()
-        For i = 1 To 6 'This for loop is honestly the closest thing to sanity I have wrote in a while so i'm gonna keep it
+        For i = 1 To 6
             dictSelection(i) = False
         Next
-        ' I'm serious, I am very much missing python's inline variable calling for statements (Or whatever that's called)
-        ' Eh, maybe i'll trying some object hack to do something similar
-        ' Cuz stuff like the below would be so much easier, cleaner and readable if I could
+
         btnSelect1.Enabled = True
         btnSelect2.Enabled = True
         btnSelect3.Enabled = True
@@ -141,6 +139,7 @@
             If (dictSelection(intThrow)) And (dictDice(intThrow) = 1) Then
                 intPointGain += 100
                 intPointsRemoval += 100
+                dictSelection(intThrow) = False
             End If
         Next
         'Check for fives
@@ -148,28 +147,38 @@
             If (dictSelection(intThrow)) And (dictDice(intThrow) = 5) Then
                 intPointGain += 50
                 intPointsRemoval += 50
+                dictSelection(intThrow) = False
             End If
         Next
 
         Dim strResults As String = ""
 
         For intThrow As Integer = 1 To 6
-            'Note to self : only read from dictSelection in if statements
-
             If dictSelection(intThrow) Then
                 strResults = strResults & dictDice(intThrow)
             End If
         Next
 
+        'Checks if the results string has three character
+        'Then assigns point gain
         If strResults.Length = 3 Then
-            If Val(strResults.Chars(1)) = 1 Then
+            If Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 1 Then
                 intPointGain -= intPointsRemoval
                 intPointGain += 1000
-            ElseIf Val(strResults.Chars(1)) = 5 Then
+            ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 2 Then
+                intPointGain += 200
+            ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 3 Then
+                intPointGain += 300
+            ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 4 Then
+                intPointGain += 400
+            ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 5 Then
                 intPointGain -= intPointsRemoval
                 intPointGain += 500
-            Else
-                intPointGain += 100 * Val(strResults.Chars(1))
+            ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) = 6 Then
+                intPointGain += 600
+                'ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) Then
+                '    intPointGain += 100 * Val(strResults.Chars(0))
+                'This block was originally used to assign non 1 or 5, but was removed due to not working
             End If
         End If
 
@@ -179,7 +188,7 @@
     Private Sub frmGame_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call Roll()
         Call CreateImages()
-        For i = 1 To 6 'Sets the selection dictioary to have false value in all 6 keys
+        For i = 1 To 6 'Sets the selection dictionary to have false value in all 6 keys
             dictSelection(i) = False
         Next
         If frmMainMenu.bolDebug = False Then
@@ -258,8 +267,8 @@
 
     Private Sub mnuTest_Click(sender As Object, e As EventArgs) Handles mnuDebug.Click
         Dim intMasterNumber As Integer = InputBox("What number to set to each?", "VBFarkle")
-        For intYeet = 1 To 6
-            dictDice(intYeet) = Val(intMasterNumber)
+        For i = 1 To 6
+            dictDice(i) = Val(intMasterNumber)
         Next
     End Sub
 
