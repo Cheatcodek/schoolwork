@@ -13,8 +13,6 @@
     Sub Roll() 'Removes and then rolls the results of the dice
         For i = 1 To 6
             dictDice.Remove(i)
-        Next
-        For i = 1 To 6
             dictDice.Add(i, objRandom.Next(1, 7))
         Next
     End Sub
@@ -152,7 +150,7 @@
         Next
 
         Dim strResults As String = ""
-
+        ' If dictSelection is true, then add that key from dictDice to strResults
         For intThrow As Integer = 1 To 6
             If dictSelection(intThrow) Then
                 strResults = strResults & dictDice(intThrow)
@@ -179,6 +177,7 @@
                 'ElseIf Val(strResults.Chars(0)) And Val(strResults.Chars(1)) And Val(strResults.Chars(2)) Then
                 '    intPointGain += 100 * Val(strResults.Chars(0))
                 'This block was originally used to assign non 1 or 5, but was removed due to not working
+                'It was replaced with the above
             End If
         End If
 
@@ -191,7 +190,7 @@
         For i = 1 To 6 'Sets the selection dictionary to have false value in all 6 keys
             dictSelection(i) = False
         Next
-        If frmMainMenu.bolDebug = False Then
+        If frmMainMenu.bolDebug = False Then 'Determines if debug mode is on
             mnuDebug.Visible = False
         Else
             mnuDebug.Visible = True
@@ -201,7 +200,7 @@
     Private Sub btnEndTurn_Click(sender As Object, e As EventArgs) Handles btnEndTurn.Click
         Call PointCount()
         Dim msgBoxResult = MessageBox.Show("You will get " & intPointGain & " Points from this" & vbNewLine & "Continue?", "VBFarkle", MessageBoxButtons.YesNo)
-
+        'Gets msgboxresult and then uses an if statement based on it, if yes, add points and detect if over 10000, if not, exit sub
         If msgBoxResult = DialogResult.Yes Then
             intPoints += intPointGain
             Call Roll()
@@ -268,11 +267,11 @@
     Private Sub mnuTest_Click(sender As Object, e As EventArgs) Handles mnuDebug.Click
         Dim intMasterNumber As Integer = InputBox("What number to set to each?", "VBFarkle")
         For i = 1 To 6
-            dictDice(i) = Val(intMasterNumber)
+            dictDice(i) = Val(intMasterNumber) 'Debug mode sets all dice values to the inputed number
         Next
     End Sub
 
     Private Sub mnuAbout_Click(sender As Object, e As EventArgs) Handles mnuAbout.Click
-        frmAboutGame.Show()
+        frmAboutGame.Show() 'Shows the "about game" form
     End Sub
 End Class
