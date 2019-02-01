@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\bin\Debug\Hudzik21(10ImportantVB).exe.config
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\bin\Debug\Hudzik21(10ImportantVB).exe
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\bin\Debug\Hudzik21(10ImportantVB).pdb
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\bin\Debug\Hudzik21(10ImportantVB).xml
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21_10ImportantVB_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21_10ImportantVB_.Resources.resources
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).exe
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).xml
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).pdb
