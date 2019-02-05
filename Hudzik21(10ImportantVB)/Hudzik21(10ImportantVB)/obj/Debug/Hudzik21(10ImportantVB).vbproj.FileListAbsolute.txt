@@ -10,3 +10,4 @@ C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debu
 C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).exe
 C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).xml
 C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21(10ImportantVB).pdb
+C:\Users\106307\Desktop\Hudzik21(10ImportantVB)\Hudzik21(10ImportantVB)\obj\Debug\Hudzik21_10ImportantVB_.frmSelectCaseQuiz.resources

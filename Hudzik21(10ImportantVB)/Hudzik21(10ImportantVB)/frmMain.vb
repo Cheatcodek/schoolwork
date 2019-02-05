@@ -95,7 +95,7 @@ Public Class frmMain
 
     Private Sub mnuExampleSelectcase_Click(sender As Object, e As EventArgs) Handles mnuExampleSelectcase.Click
 
-        MessageBox.Show("Another form will open showing you a random question" & vbNewLine & "Both the question and correct answer will be determined using select case")
+        MessageBox.Show("Another form will open showing you a random question" & vbNewLine & "The question will be determined using select case" & vbNewLine & "The answer will be determined using a compound if structure")
 
         frmSelectCaseQuiz.Show()
     End Sub

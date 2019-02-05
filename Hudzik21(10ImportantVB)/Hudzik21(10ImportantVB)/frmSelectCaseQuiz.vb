@@ -1,8 +1,9 @@
 ﻿Public Class frmSelectCaseQuiz
     'Quick note about the form, Normally you should have radio buttons in group boxes, this is not done in this as it is unneeded
+    Dim objRandom As New Random
+    Dim intQuestion As Integer = objRandom.Next(1, 5)
     Private Sub frmSelectCaseQuiz_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim objRandom As New Random
-        Dim intQuestion As Integer = objRandom.Next(1, 5)
+
 
         Select Case intQuestion
             Case 1 'Han vs Greedo question
@@ -13,13 +14,13 @@
                 radFourthAns.Text = "This question is ultimately pointless"
 
             Case 2 'Jojo question
-                lblQuestion.Text = "What is the name of Jotaro Kujo's Stand?"
-                radFirstAns.Text = "Soft Spice Diamond"
-                radSecondAns.Text = "Golden Tusk"
+                lblQuestion.Text = "What is the name of Jotaro Kujo's stand?"
+                radFirstAns.Text = "Stone Free Reqiuem"
+                radSecondAns.Text = "Golden Tusk Act 4"
                 radThirdAns.Text = "Star Platinum"
-                radFourthAns.Text = "The Chariot Over Requiem"
+                radFourthAns.Text = "The Chariot Over Heaven"
 
-            Case 3 'ESIII question
+            Case 3 'ES3 question
                 lblQuestion.Text = "What is the hero in The Elder Scrolls Three Morrowind called?"
                 radFirstAns.Text = "The Nerevarine"
                 radSecondAns.Text = "The Dragonborn"
@@ -35,5 +36,26 @@
 
         End Select
 
+
+
     End Sub
+
+    Private Sub btnConfirm_Click(sender As Object, e As EventArgs) Handles btnConfirm.Click
+
+        If intQuestion = 1 And radFourthAns.Checked Then
+            MessageBox.Show("Correct!")
+        ElseIf intQuestion = 2 And radThirdAns.Checked = True Then
+            MessageBox.Show("Correct!")
+        ElseIf intQuestion = 3 And radFirstAns.Checked = True Then
+            MessageBox.Show("Correct!")
+        ElseIf intQuestion = 4 And radSecondAns.Checked = True Then
+            MessageBox.Show("Correct!")
+        Else
+            MessageBox.Show("Incorrect!")
+        End If
+
+        Application.Exit()
+
+    End Sub
+
 End Class
