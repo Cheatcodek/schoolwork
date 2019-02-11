@@ -63,9 +63,9 @@ Partial Class frmMain
         Me.lblWrongguesses.AutoSize = True
         Me.lblWrongguesses.Location = New System.Drawing.Point(41, 45)
         Me.lblWrongguesses.Name = "lblWrongguesses"
-        Me.lblWrongguesses.Size = New System.Drawing.Size(39, 13)
+        Me.lblWrongguesses.Size = New System.Drawing.Size(13, 13)
         Me.lblWrongguesses.TabIndex = 3
-        Me.lblWrongguesses.Text = "Label1"
+        Me.lblWrongguesses.Text = "0"
         '
         'lblLength
         '
