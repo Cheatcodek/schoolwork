@@ -29,12 +29,13 @@ Partial Class frmMain
         Me.lblLength = New System.Windows.Forms.Label()
         Me.txtGuess = New System.Windows.Forms.TextBox()
         Me.btnConfirm = New System.Windows.Forms.Button()
+        Me.btnToggle = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblInfoDisplayword
         '
         Me.lblInfoDisplayword.AutoSize = True
-        Me.lblInfoDisplayword.Location = New System.Drawing.Point(74, 100)
+        Me.lblInfoDisplayword.Location = New System.Drawing.Point(60, 87)
         Me.lblInfoDisplayword.Name = "lblInfoDisplayword"
         Me.lblInfoDisplayword.Size = New System.Drawing.Size(67, 13)
         Me.lblInfoDisplayword.TabIndex = 0
@@ -43,9 +44,10 @@ Partial Class frmMain
         'lblDisplayword
         '
         Me.lblDisplayword.AutoSize = True
-        Me.lblDisplayword.Location = New System.Drawing.Point(89, 117)
+        Me.lblDisplayword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDisplayword.Location = New System.Drawing.Point(75, 104)
         Me.lblDisplayword.Name = "lblDisplayword"
-        Me.lblDisplayword.Size = New System.Drawing.Size(39, 13)
+        Me.lblDisplayword.Size = New System.Drawing.Size(49, 16)
         Me.lblDisplayword.TabIndex = 1
         Me.lblDisplayword.Text = "Label1"
         '
@@ -93,12 +95,22 @@ Partial Class frmMain
         Me.btnConfirm.Text = "Confirm"
         Me.btnConfirm.UseVisualStyleBackColor = True
         '
+        'btnToggle
+        '
+        Me.btnToggle.Location = New System.Drawing.Point(147, 218)
+        Me.btnToggle.Name = "btnToggle"
+        Me.btnToggle.Size = New System.Drawing.Size(87, 23)
+        Me.btnToggle.TabIndex = 7
+        Me.btnToggle.Text = "Toggle Music"
+        Me.btnToggle.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AcceptButton = Me.btnConfirm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(237, 244)
+        Me.Controls.Add(Me.btnToggle)
         Me.Controls.Add(Me.btnConfirm)
         Me.Controls.Add(Me.txtGuess)
         Me.Controls.Add(Me.lblLength)
@@ -120,4 +132,5 @@ Partial Class frmMain
     Friend WithEvents lblLength As Label
     Friend WithEvents txtGuess As TextBox
     Friend WithEvents btnConfirm As Button
+    Friend WithEvents btnToggle As Button
 End Class
