@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\bin\Debug\Hudzik22(WordGuessGame).exe.config
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\bin\Debug\Hudzik22(WordGuessGame).exe
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\bin\Debug\Hudzik22(WordGuessGame).pdb
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\bin\Debug\Hudzik22(WordGuessGame).xml
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22_WordGuessGame_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22_WordGuessGame_.Resources.resources
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).exe
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).xml
+C:\Users\106307\Desktop\Hudzik22(WordGuessGame)\Hudzik22(WordGuessGame)\obj\Debug\Hudzik22(WordGuessGame).pdb
