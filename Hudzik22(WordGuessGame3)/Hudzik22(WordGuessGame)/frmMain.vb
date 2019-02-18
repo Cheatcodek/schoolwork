@@ -1,6 +1,7 @@
 ﻿Imports System.Media
 Public Class frmMain
     Dim strMainString As String
+    Dim bolNoise As Boolean = True
     'Fighting Gold is by CODA, recreated in a band arangement by Musescore
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -18,7 +19,7 @@ Public Class frmMain
 
     End Sub
 
-    Private Sub btnConfirm_Click(sender As Object, e As EventArgs) Handles btnConfirm.Click
+    Private Sub btnConfirm_Click(sender As Object, e As EventArgs) Handles btnConfirm.Click, mnuControlsConfirm.Click
         Dim bolCorrect As Boolean = False
         Static strGuessed As String
         Static intWrongGuesses As Integer
@@ -32,7 +33,9 @@ Public Class frmMain
                 lblDisplayword.Text = lblDisplayword.Text.Remove(intThrowaway, 1) 'Removes the character to be replaced
                 lblDisplayword.Text = lblDisplayword.Text.Insert(intThrowaway, strMainString.Substring(intThrowaway, 1)) 'Inserts the character from the main string into the label
                 strGuessed = strGuessed & lblDisplayword.Text.Chars(intThrowaway)
-                SystemSounds.Asterisk.Play()
+                If bolNoise Then
+                    SystemSounds.Asterisk.Play()
+                End If
             End If
 
         Next
@@ -40,44 +43,35 @@ Public Class frmMain
         If bolCorrect = False Then
             intWrongGuesses += 1
             lblWrongguesses.Text = intWrongGuesses
-            SystemSounds.Hand.Play()
+            If bolNoise Then
+                SystemSounds.Hand.Play()
+            End If
             MessageBox.Show("That is not in the word!" & vbNewLine & txtGuess.Text & " is not in the word!")
-        End If
+            End If
 
-        If lblDisplayword.Text = strMainString Then 'Checks if the correct guesses have gotten to the length of the string
-            My.Computer.Audio.Play(My.Resources.ding, AudioPlayMode.WaitToComplete)
-            'Win timer WIP
-            For intCounter As Integer = 1 To 3
-
-                Select Case intCounter
-                    Case 1
-                        Me.BackColor = Color.Red
-                    Case 2
-                        Me.BackColor = Color.Blue
-                    Case 3
-                        Me.BackColor = Color.Purple
-                End Select
-
-                For i As Integer = 1 To 99
-                    My.Application.DoEvents()
-                Next
-
-            Next
-                MessageBox.Show("You have fully guessed the word!" & vbNewLine & "It was " & strMainString)
+            If lblDisplayword.Text = strMainString Then 'Checks if the correct guesses have gotten to the length of the string
+            tmrLength.Enabled = False
+            If bolNoise Then
+                My.Computer.Audio.Play(My.Resources.ding, AudioPlayMode.WaitToComplete)
+            End If
+            tmrVictory.Enabled = True
+            MessageBox.Show("You have fully guessed the word!" & vbNewLine & "It was " & strMainString)
             Application.Exit()
         End If
 
         If intWrongGuesses = 8 Then
-            My.Computer.Audio.Play(My.Resources.remove, AudioPlayMode.WaitToComplete)
+            If bolNoise Then
+                My.Computer.Audio.Play(My.Resources.remove, AudioPlayMode.WaitToComplete)
+            End If
             MessageBox.Show("You are out of guesses" & vbNewLine & "Therefor you lose!" & vbNewLine & "The Word was " & strMainString)
             Application.Exit() 'Informs the user and then exits if they have failed
         End If
 
-        txtGuess.Text = ""
+            txtGuess.Text = ""
 
     End Sub
 
-    Private Sub btnToggle_Click(sender As Object, e As EventArgs) Handles btnToggle.Click
+    Private Sub btnToggle_Click(sender As Object, e As EventArgs) Handles btnToggle.Click, mnuControlsTogglemusic.Click
 
         Static bolMusic As Boolean = False
 
@@ -96,8 +90,37 @@ Public Class frmMain
         Static dblTime As Double
 
         dblTime += 0.1
+        dblTime = Math.Round(dblTime * 10, MidpointRounding.AwayFromZero) / 10
         lblTimer.Text = "Time : " & Val(dblTime)
 
     End Sub
 
+    Private Sub tmrVictory_Tick(sender As Object, e As EventArgs) Handles tmrVictory.Tick
+        Static intCount As Integer = 0
+
+        Select Case intCount
+            Case 1
+                Me.BackColor = Color.Red
+            Case 2
+                Me.BackColor = Color.Blue
+            Case 3
+                Me.BackColor = Color.Purple
+            Case 4
+                Me.BackColor = Color.Gold
+            Case 5
+                Me.BackColor = Color.White
+        End Select
+
+        intCount += 1
+
+    End Sub
+
+    Private Sub mnuFileExit_Click(sender As Object, e As EventArgs) Handles mnuFileExit.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub btnTogglenoise_Click(sender As Object, e As EventArgs) Handles btnTogglenoise.Click, mnuControlsTogglenoise.Click 
+        'Creative addition, Toggles non music sounds being played
+        bolNoise = Not bolNoise 'Toggles bolNoise
+    End Sub
 End Class

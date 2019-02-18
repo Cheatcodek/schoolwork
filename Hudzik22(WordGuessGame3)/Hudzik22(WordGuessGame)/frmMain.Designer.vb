@@ -34,6 +34,15 @@ Partial Class frmMain
         Me.tmrLength = New System.Windows.Forms.Timer(Me.components)
         Me.lblTimer = New System.Windows.Forms.Label()
         Me.tmrVictory = New System.Windows.Forms.Timer(Me.components)
+        Me.mnuMain = New System.Windows.Forms.MenuStrip()
+        Me.mnuFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuControls = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuControlsConfirm = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuControlsTogglemusic = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnTogglenoise = New System.Windows.Forms.Button()
+        Me.mnuControlsTogglenoise = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'lblInfoDisplayword
@@ -115,7 +124,7 @@ Partial Class frmMain
         'lblTimer
         '
         Me.lblTimer.AutoSize = True
-        Me.lblTimer.Location = New System.Drawing.Point(176, 9)
+        Me.lblTimer.Location = New System.Drawing.Point(169, 24)
         Me.lblTimer.Name = "lblTimer"
         Me.lblTimer.Size = New System.Drawing.Size(39, 13)
         Me.lblTimer.TabIndex = 8
@@ -125,12 +134,69 @@ Partial Class frmMain
         '
         Me.tmrVictory.Interval = 500
         '
+        'mnuMain
+        '
+        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFile, Me.mnuControls})
+        Me.mnuMain.Location = New System.Drawing.Point(0, 0)
+        Me.mnuMain.Name = "mnuMain"
+        Me.mnuMain.Size = New System.Drawing.Size(237, 24)
+        Me.mnuMain.TabIndex = 9
+        Me.mnuMain.Text = "MenuStrip1"
+        '
+        'mnuFile
+        '
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFileExit})
+        Me.mnuFile.Name = "mnuFile"
+        Me.mnuFile.Size = New System.Drawing.Size(37, 20)
+        Me.mnuFile.Text = "File"
+        '
+        'mnuFileExit
+        '
+        Me.mnuFileExit.Name = "mnuFileExit"
+        Me.mnuFileExit.Size = New System.Drawing.Size(92, 22)
+        Me.mnuFileExit.Text = "Exit"
+        '
+        'mnuControls
+        '
+        Me.mnuControls.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuControlsConfirm, Me.mnuControlsTogglemusic, Me.mnuControlsTogglenoise})
+        Me.mnuControls.Name = "mnuControls"
+        Me.mnuControls.Size = New System.Drawing.Size(64, 20)
+        Me.mnuControls.Text = "Controls"
+        '
+        'mnuControlsConfirm
+        '
+        Me.mnuControlsConfirm.Name = "mnuControlsConfirm"
+        Me.mnuControlsConfirm.Size = New System.Drawing.Size(180, 22)
+        Me.mnuControlsConfirm.Text = "Confirm"
+        '
+        'mnuControlsTogglemusic
+        '
+        Me.mnuControlsTogglemusic.Name = "mnuControlsTogglemusic"
+        Me.mnuControlsTogglemusic.Size = New System.Drawing.Size(180, 22)
+        Me.mnuControlsTogglemusic.Text = "Toggle Music"
+        '
+        'btnTogglenoise
+        '
+        Me.btnTogglenoise.Location = New System.Drawing.Point(147, 189)
+        Me.btnTogglenoise.Name = "btnTogglenoise"
+        Me.btnTogglenoise.Size = New System.Drawing.Size(87, 23)
+        Me.btnTogglenoise.TabIndex = 10
+        Me.btnTogglenoise.Text = "Toggle Noise"
+        Me.btnTogglenoise.UseVisualStyleBackColor = True
+        '
+        'mnuControlsTogglenoise
+        '
+        Me.mnuControlsTogglenoise.Name = "mnuControlsTogglenoise"
+        Me.mnuControlsTogglenoise.Size = New System.Drawing.Size(180, 22)
+        Me.mnuControlsTogglenoise.Text = "Toggle Noise"
+        '
         'frmMain
         '
         Me.AcceptButton = Me.btnConfirm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(237, 244)
+        Me.Controls.Add(Me.btnTogglenoise)
         Me.Controls.Add(Me.lblTimer)
         Me.Controls.Add(Me.btnToggle)
         Me.Controls.Add(Me.btnConfirm)
@@ -140,8 +206,12 @@ Partial Class frmMain
         Me.Controls.Add(Me.lblInfoWrongguesses)
         Me.Controls.Add(Me.lblDisplayword)
         Me.Controls.Add(Me.lblInfoDisplayword)
+        Me.Controls.Add(Me.mnuMain)
+        Me.MainMenuStrip = Me.mnuMain
         Me.Name = "frmMain"
         Me.Text = "Word Guess"
+        Me.mnuMain.ResumeLayout(False)
+        Me.mnuMain.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -158,4 +228,12 @@ Partial Class frmMain
     Friend WithEvents tmrLength As Timer
     Friend WithEvents lblTimer As Label
     Friend WithEvents tmrVictory As Timer
+    Friend WithEvents mnuMain As MenuStrip
+    Friend WithEvents mnuFile As ToolStripMenuItem
+    Friend WithEvents mnuFileExit As ToolStripMenuItem
+    Friend WithEvents mnuControls As ToolStripMenuItem
+    Friend WithEvents mnuControlsConfirm As ToolStripMenuItem
+    Friend WithEvents mnuControlsTogglemusic As ToolStripMenuItem
+    Friend WithEvents btnTogglenoise As Button
+    Friend WithEvents mnuControlsTogglenoise As ToolStripMenuItem
 End Class
