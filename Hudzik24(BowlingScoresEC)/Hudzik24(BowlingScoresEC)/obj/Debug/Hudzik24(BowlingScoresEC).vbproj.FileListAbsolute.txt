@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\bin\Debug\Hudzik24(BowlingScoresEC).exe.config
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\bin\Debug\Hudzik24(BowlingScoresEC).exe
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\bin\Debug\Hudzik24(BowlingScoresEC).pdb
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\bin\Debug\Hudzik24(BowlingScoresEC).xml
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24_BowlingScoresEC_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24_BowlingScoresEC_.Resources.resources
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).exe
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).xml
+C:\Users\106307\Desktop\Hudzik24(BowlingScoresEC)\Hudzik24(BowlingScoresEC)\obj\Debug\Hudzik24(BowlingScoresEC).pdb
