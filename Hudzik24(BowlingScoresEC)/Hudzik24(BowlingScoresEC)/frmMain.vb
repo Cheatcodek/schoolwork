@@ -11,19 +11,17 @@
             Dim strCarrier As String
             'Carries the string from the input box to be examined
 
-
             strCarrier = InputBox("Input score, click cancel to end")
 
             If strCarrier = "" Then
-                Exit Do
+                Exit Sub
             ElseIf strCarrier.Length >= 4 Or Val(strCarrier) > 300 Then
                 MessageBox.Show("That is an invalid score")
-                Exit Do
+                Exit Sub
             End If
 
-            intCounter += 1
             dictScores.Add(intCounter, Val(strCarrier))
-
+            intCounter += 1
         Loop
 
     End Sub
@@ -33,11 +31,22 @@
 
         Dim intHighscore As Integer
         Dim intLowscore As Integer
+        Dim intAveragescore As Integer
 
         intHighscore = dictScores.Values.Max()
         intLowscore = dictScores.Values.Min()
 
-        'you know, I had a whole thing planned out that worked but it didn't so here is the corpse for autopsy
+
+        'Averaging, I could have just used the average method from values, but I decided to challenge myself
+        For intCount As Integer = 0 To intCounter - 1
+
+            intAveragescore += dictScores(intCount)
+
+        Next
+        intAveragescore = intAveragescore / (intCounter)
+
+
+        'you know, I had a whole thing planned out that kinda worked but it didn't so here is the corpse for autopsy
         'For intCount As Integer = 1 To intCounter - 1
         '    Dim intFirst As Integer
         '    Dim intSecond As Integer
@@ -65,6 +74,8 @@
         '    End If
 
         'Next
+
+        lblStatistics.Text = "Your highest score is " & intHighscore & vbNewLine & "Your lowest score is " & intLowscore & vbNewLine & "Your average score is " & intAveragescore
 
     End Sub
 

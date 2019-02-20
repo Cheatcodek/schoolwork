@@ -24,12 +24,12 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.btnEnter = New System.Windows.Forms.Button()
         Me.btnStatistics = New System.Windows.Forms.Button()
-        Me.lblMain = New System.Windows.Forms.Label()
+        Me.lblStatistics = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnEnter
         '
-        Me.btnEnter.Location = New System.Drawing.Point(12, 171)
+        Me.btnEnter.Location = New System.Drawing.Point(12, 101)
         Me.btnEnter.Name = "btnEnter"
         Me.btnEnter.Size = New System.Drawing.Size(86, 23)
         Me.btnEnter.TabIndex = 0
@@ -38,31 +38,31 @@ Partial Class frmMain
         '
         'btnStatistics
         '
-        Me.btnStatistics.Location = New System.Drawing.Point(13, 201)
+        Me.btnStatistics.Location = New System.Drawing.Point(13, 131)
         Me.btnStatistics.Name = "btnStatistics"
         Me.btnStatistics.Size = New System.Drawing.Size(85, 23)
         Me.btnStatistics.TabIndex = 1
         Me.btnStatistics.Text = "Statistics"
         Me.btnStatistics.UseVisualStyleBackColor = True
         '
-        'lblMain
+        'lblStatistics
         '
-        Me.lblMain.AutoSize = True
-        Me.lblMain.Location = New System.Drawing.Point(13, 32)
-        Me.lblMain.Name = "lblMain"
-        Me.lblMain.Size = New System.Drawing.Size(0, 13)
-        Me.lblMain.TabIndex = 2
+        Me.lblStatistics.AutoSize = True
+        Me.lblStatistics.Location = New System.Drawing.Point(13, 32)
+        Me.lblStatistics.Name = "lblStatistics"
+        Me.lblStatistics.Size = New System.Drawing.Size(0, 13)
+        Me.lblStatistics.TabIndex = 2
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 233)
-        Me.Controls.Add(Me.lblMain)
+        Me.ClientSize = New System.Drawing.Size(282, 170)
+        Me.Controls.Add(Me.lblStatistics)
         Me.Controls.Add(Me.btnStatistics)
         Me.Controls.Add(Me.btnEnter)
         Me.Name = "frmMain"
-        Me.Text = "Form1"
+        Me.Text = "Bowling Scores"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -70,5 +70,5 @@ Partial Class frmMain
 
     Friend WithEvents btnEnter As Button
     Friend WithEvents btnStatistics As Button
-    Friend WithEvents lblMain As Label
+    Friend WithEvents lblStatistics As Label
 End Class
