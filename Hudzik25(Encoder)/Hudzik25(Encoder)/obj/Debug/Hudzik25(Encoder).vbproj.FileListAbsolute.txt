@@ -1,0 +1,25 @@
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).exe.config
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).pdb
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbprojAssemblyReference.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25_Encoder_.frmMain.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25_Encoder_.Resources.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbproj.GenerateResource.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbproj.CoreCompileInputs.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).pdb
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).exe.config
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).exe
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).pdb
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\bin\Debug\Hudzik25(Encoder).xml
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25_Encoder_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25_Encoder_.Resources.resources
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).exe
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).xml
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25(Encoder).pdb
+C:\Users\106307\Desktop\Hudzik25(Encoder)\Hudzik25(Encoder)\obj\Debug\Hudzik25_Encoder_.frmSeeCode.resources
