@@ -22,5 +22,15 @@ Hudzik25(Encoder)
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Hudzik25_Encoder_.My.Resources.Resources._0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Hudzik25_Encoder_.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
 </members>
 </doc>
