@@ -31,15 +31,16 @@ Partial Class frmMain
         Me.mnuOptions = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuOptionsEncode = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuOptionsSeecode = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuOptionsDecode = New System.Windows.Forms.ToolStripMenuItem()
         Me.btnDecode = New System.Windows.Forms.Button()
         Me.lblDecode = New System.Windows.Forms.Label()
-        Me.mnuOptionsDecode = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileAbout = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnEncode
         '
-        Me.btnEncode.Location = New System.Drawing.Point(21, 40)
+        Me.btnEncode.Location = New System.Drawing.Point(15, 36)
         Me.btnEncode.Name = "btnEncode"
         Me.btnEncode.Size = New System.Drawing.Size(75, 23)
         Me.btnEncode.TabIndex = 2
@@ -49,7 +50,7 @@ Partial Class frmMain
         'btnSeecode
         '
         Me.btnSeecode.Enabled = False
-        Me.btnSeecode.Location = New System.Drawing.Point(12, 69)
+        Me.btnSeecode.Location = New System.Drawing.Point(6, 65)
         Me.btnSeecode.Name = "btnSeecode"
         Me.btnSeecode.Size = New System.Drawing.Size(93, 23)
         Me.btnSeecode.TabIndex = 3
@@ -67,7 +68,7 @@ Partial Class frmMain
         '
         'mnuFile
         '
-        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFileExit})
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFileAbout, Me.mnuFileExit})
         Me.mnuFile.Name = "mnuFile"
         Me.mnuFile.Size = New System.Drawing.Size(37, 20)
         Me.mnuFile.Text = "File"
@@ -75,7 +76,7 @@ Partial Class frmMain
         'mnuFileExit
         '
         Me.mnuFileExit.Name = "mnuFileExit"
-        Me.mnuFileExit.Size = New System.Drawing.Size(92, 22)
+        Me.mnuFileExit.Size = New System.Drawing.Size(180, 22)
         Me.mnuFileExit.Text = "Exit"
         '
         'mnuOptions
@@ -98,9 +99,15 @@ Partial Class frmMain
         Me.mnuOptionsSeecode.Size = New System.Drawing.Size(180, 22)
         Me.mnuOptionsSeecode.Text = "See Code"
         '
+        'mnuOptionsDecode
+        '
+        Me.mnuOptionsDecode.Name = "mnuOptionsDecode"
+        Me.mnuOptionsDecode.Size = New System.Drawing.Size(180, 22)
+        Me.mnuOptionsDecode.Text = "Decode"
+        '
         'btnDecode
         '
-        Me.btnDecode.Location = New System.Drawing.Point(21, 99)
+        Me.btnDecode.Location = New System.Drawing.Point(15, 95)
         Me.btnDecode.Name = "btnDecode"
         Me.btnDecode.Size = New System.Drawing.Size(75, 23)
         Me.btnDecode.TabIndex = 5
@@ -115,11 +122,11 @@ Partial Class frmMain
         Me.lblDecode.Size = New System.Drawing.Size(0, 13)
         Me.lblDecode.TabIndex = 6
         '
-        'mnuOptionsDecode
+        'mnuFileAbout
         '
-        Me.mnuOptionsDecode.Name = "mnuOptionsDecode"
-        Me.mnuOptionsDecode.Size = New System.Drawing.Size(180, 22)
-        Me.mnuOptionsDecode.Text = "Decode"
+        Me.mnuFileAbout.Name = "mnuFileAbout"
+        Me.mnuFileAbout.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileAbout.Text = "About"
         '
         'frmMain
         '
@@ -152,4 +159,5 @@ Partial Class frmMain
     Friend WithEvents btnDecode As Button
     Friend WithEvents lblDecode As Label
     Friend WithEvents mnuOptionsDecode As ToolStripMenuItem
+    Friend WithEvents mnuFileAbout As ToolStripMenuItem
 End Class
