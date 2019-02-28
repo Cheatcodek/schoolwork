@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\bin\Debug\Hudzik26(ShellGame).exe.config
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\bin\Debug\Hudzik26(ShellGame).exe
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\bin\Debug\Hudzik26(ShellGame).pdb
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\bin\Debug\Hudzik26(ShellGame).xml
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26_ShellGame_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26_ShellGame_.Resources.resources
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).exe
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).xml
+C:\Users\106307\Desktop\Hudzik26(ShellGame)\Hudzik26(ShellGame)\obj\Debug\Hudzik26(ShellGame).pdb
