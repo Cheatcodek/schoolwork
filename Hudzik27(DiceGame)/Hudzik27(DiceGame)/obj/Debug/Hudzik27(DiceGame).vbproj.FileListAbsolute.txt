@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\bin\Debug\Hudzik27(DiceGame).exe.config
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\bin\Debug\Hudzik27(DiceGame).exe
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\bin\Debug\Hudzik27(DiceGame).pdb
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\bin\Debug\Hudzik27(DiceGame).xml
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27_DiceGame_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27_DiceGame_.Resources.resources
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).exe
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).xml
+C:\Users\106307\Desktop\Hudzik27(DiceGame)\Hudzik27(DiceGame)\obj\Debug\Hudzik27(DiceGame).pdb
