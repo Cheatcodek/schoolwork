@@ -1,11 +1,10 @@
 ﻿Public Class frmMain
 
-    Dim dictDice As Dictionary(Of Integer, Integer)
-    Dim objRandom As New Random
-
 
     Private Sub btnRoll_Click(sender As Object, e As EventArgs) Handles btnRoll.Click
 
+        Dim dictDice As New Dictionary(Of Integer, Integer)
+        Dim objRandom As New Random
         Static intPoints As Integer = 1000
         Dim intCombined As Integer
         Dim intWager As Integer = Val(txtWager.Text)
@@ -15,8 +14,8 @@
             Exit Sub
         End If
 
-        For i As Integer = 0 To 2
-            dictDice(i) = objRandom.Next(1, 7)
+        For i As Integer = 1 To 2
+            dictDice.Add(i, objRandom.Next(1, 7))
         Next
 
         intCombined = dictDice(1) + dictDice(2)
@@ -55,15 +54,15 @@
 
         If intCombined Mod 2 <> 0 Then
 
-            MessageBox.Show("Win")
-            intPoints += intWager
-
+            MessageBox.Show("You have Win!!")
+            intPoints += intWager * 2
         Else
 
             MessageBox.Show("You have Loss!!")
             intPoints -= intWager
-
         End If
+
+        lblPoints.Text = "Points : " & intPoints
 
     End Sub
 
