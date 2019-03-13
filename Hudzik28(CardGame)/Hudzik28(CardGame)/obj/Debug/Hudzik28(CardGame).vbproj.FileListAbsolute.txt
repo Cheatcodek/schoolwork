@@ -1,0 +1,12 @@
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\bin\Debug\Hudzik28(CardGame).exe.config
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\bin\Debug\Hudzik28(CardGame).exe
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\bin\Debug\Hudzik28(CardGame).pdb
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\bin\Debug\Hudzik28(CardGame).xml
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28_CardGame_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28_CardGame_.Resources.resources
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).exe
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).xml
+C:\Users\106307\Desktop\Hudzik28(CardGame)\Hudzik28(CardGame)\obj\Debug\Hudzik28(CardGame).pdb
