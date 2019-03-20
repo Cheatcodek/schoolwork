@@ -1,0 +1,24 @@
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).exe.config
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).pdb
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbprojAssemblyReference.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29_MyFriends_.frmMain.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29_MyFriends_.Resources.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbproj.GenerateResource.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbproj.CoreCompileInputs.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).pdb
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).exe.config
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).exe
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).pdb
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\bin\Debug\Hudzik29(MyFriends).xml
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29_MyFriends_.frmMain.resources
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29_MyFriends_.Resources.resources
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).exe
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).xml
+C:\Users\106307\Desktop\Hudzik29(MyFriends)\Hudzik29(MyFriends)\obj\Debug\Hudzik29(MyFriends).pdb
