@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Hudzik33(HiddenPrizeGame)", "Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame).vbproj", "{1174925E-473D-4CC0-9CE4-DDF010E22F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1174925E-473D-4CC0-9CE4-DDF010E22F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1174925E-473D-4CC0-9CE4-DDF010E22F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1174925E-473D-4CC0-9CE4-DDF010E22F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1174925E-473D-4CC0-9CE4-DDF010E22F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A92C33-4D7F-4762-A425-100F37952A9A}
+	EndGlobalSection
+EndGlobal

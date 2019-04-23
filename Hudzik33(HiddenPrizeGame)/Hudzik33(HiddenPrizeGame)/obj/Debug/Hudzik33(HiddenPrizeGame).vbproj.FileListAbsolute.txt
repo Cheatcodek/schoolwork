@@ -1,0 +1,24 @@
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).exe.config
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).pdb
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbprojAssemblyReference.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33_HiddenPrizeGame_.Form1.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33_HiddenPrizeGame_.Resources.resources
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbproj.GenerateResource.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).exe
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).xml
+C:\Users\106307\AppData\Local\Temporary Projects\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).pdb
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).exe.config
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).exe
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).pdb
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\bin\Debug\Hudzik33(HiddenPrizeGame).xml
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbprojAssemblyReference.cache
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33_HiddenPrizeGame_.Resources.resources
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbproj.GenerateResource.cache
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).vbproj.CoreCompileInputs.cache
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).exe
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).xml
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33(HiddenPrizeGame).pdb
+C:\Users\106307\Desktop\Hudzik33(HiddenPrizeGame)\Hudzik33(HiddenPrizeGame)\obj\Debug\Hudzik33_HiddenPrizeGame_.frmMain.resources
