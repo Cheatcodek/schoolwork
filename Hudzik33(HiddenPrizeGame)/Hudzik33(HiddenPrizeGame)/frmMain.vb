@@ -1,10 +1,11 @@
-﻿Public Class frmMain
+﻿
+Public Class frmMain
 
     Dim btnHiddenBoxes(4, 4) As Button
 
     Dim intButtonsGiven As Integer
     Dim strPrize As String
-
+    Dim objRandom As New Random
 
     Sub CreateButtons(ByVal intButtonAmount As Integer)
 
@@ -17,7 +18,7 @@
                 btnHiddenBoxes(i, j) = New Button
                 btnHiddenBoxes(i, j).Text = (i + 1) & ", " & (j + 1)
                 btnHiddenBoxes(i, j).Size = New Size(50, 30)
-                btnHiddenBoxes(i, j).Location = New Point(i * 56, j * 32)
+                btnHiddenBoxes(i, j).Location = New Point(i * 56, (j * 32) + 30)
                 btnHiddenBoxes(i, j).Enabled = False
                 Controls.Add(btnHiddenBoxes(i, j))
 
@@ -29,15 +30,26 @@
 
     End Sub
 
-    Private Sub btnHidePrizes_Click(sender As Object, e As EventArgs) Handles btnHidePrizes.Click
+    Private Sub btnHidePrizes_Click(sender As Object, e As EventArgs) Handles btnHidePrizes.Click, mnuStartEasy.Click, mnuStartNormal.Click
 
-        If radNormalMode.Checked = True Then
+
+        If TypeOf sender Is Button And radNormalMode.Checked = True Then
             intButtonsGiven = 4
-        Else
+        ElseIf TypeOf sender Is Button And radEasyMode.Checked = True Then
             intButtonsGiven = 2
-            ReDim btnHiddenBoxes(2, 2)
+        ElseIf TypeOf sender Is MenuStrip Then
+
+            Dim mnuSender As MenuStrip = sender
+
+            If mnuSender.Tag = "1" Then
+                intButtonsGiven = 2
+            Else
+                intButtonsGiven = 4
+            End If
+
         End If
 
+        ReDim btnHiddenBoxes(intButtonsGiven, intButtonsGiven)
         CreateButtons(intButtonsGiven)
         HidePrizes(intButtonsGiven)
         btnHidePrizes.Enabled = False
@@ -45,7 +57,6 @@
 
 
     Sub HidePrizes(ByVal intButtonAmount As Integer)
-        Static objRandom As New Random
 
         For i As Integer = 0 To intButtonAmount
             For j As Integer = 0 To intButtonAmount
@@ -53,13 +64,21 @@
             Next
         Next
 
+
         'Gives the values of "Comp" and "uter" randomly
-        btnHiddenBoxes(objRandom.Next(1, intButtonAmount), objRandom.Next(1, intButtonAmount)).Tag = "Comp"
-        btnHiddenBoxes(objRandom.Next(1, intButtonAmount), objRandom.Next(1, intButtonAmount)).Tag = "uter"
+        'Somtimes will assign multiple strings for some reason,
+        'Leading to a stackoverflow
+        'No idea how to fix this
+        If intButtonAmount = 2 Then
+            btnHiddenBoxes(objRandom.Next(1, intButtonAmount + 1), objRandom.Next(1, intButtonAmount + 1)).Tag = "Computer"
 
-
+        ElseIf intButtonAmount = 4 Then
+            btnHiddenBoxes(objRandom.Next(1, intButtonAmount + 1), objRandom.Next(1, intButtonAmount + 1)).Tag = "Comp"
+            btnHiddenBoxes(objRandom.Next(1, intButtonAmount + 1), objRandom.Next(1, intButtonAmount + 1)).Tag = "uter"
+        End If
 
         Dim strCheckString As String = ""
+
 
         For i As Integer = 0 To intButtonAmount
             For j As Integer = 0 To intButtonAmount
@@ -99,13 +118,14 @@
         End If
 
         'Victory condition
-        If (strCheckString = "Computer") Or (strCheckString = "uterComp") Then
+        If ((strCheckString = "Computer") Or (strCheckString = "uterComp")) Or sender.Tag = "Computer" Then
             MessageBox.Show("You got Computer!!" & vbNewLine & "You won the computer")
             Application.Exit()
         End If
 
         intBoxesLeft -= 1
         lblBoxesLeft.Text = "Boxes left : " & intBoxesLeft
+
 
         If intBoxesLeft <= 0 Then
             MessageBox.Show("You've ran out of uses!!" & vbNewLine & "Goodbye")

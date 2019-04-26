@@ -26,6 +26,13 @@ Partial Class frmMain
         Me.lblBoxesLeft = New System.Windows.Forms.Label()
         Me.radNormalMode = New System.Windows.Forms.RadioButton()
         Me.radEasyMode = New System.Windows.Forms.RadioButton()
+        Me.mnuMain = New System.Windows.Forms.MenuStrip()
+        Me.mnuFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuStart = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuStartEasy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuStartNormal = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnHidePrizes
@@ -69,6 +76,49 @@ Partial Class frmMain
         Me.radEasyMode.Text = "Easy Mode"
         Me.radEasyMode.UseVisualStyleBackColor = True
         '
+        'mnuMain
+        '
+        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFile, Me.mnuStart})
+        Me.mnuMain.Location = New System.Drawing.Point(0, 0)
+        Me.mnuMain.Name = "mnuMain"
+        Me.mnuMain.Size = New System.Drawing.Size(307, 24)
+        Me.mnuMain.TabIndex = 4
+        Me.mnuMain.Text = "MenuStrip1"
+        '
+        'mnuFile
+        '
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFileExit})
+        Me.mnuFile.Name = "mnuFile"
+        Me.mnuFile.Size = New System.Drawing.Size(37, 20)
+        Me.mnuFile.Text = "File"
+        '
+        'mnuFileExit
+        '
+        Me.mnuFileExit.Name = "mnuFileExit"
+        Me.mnuFileExit.Size = New System.Drawing.Size(92, 22)
+        Me.mnuFileExit.Text = "Exit"
+        '
+        'mnuStart
+        '
+        Me.mnuStart.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuStartEasy, Me.mnuStartNormal})
+        Me.mnuStart.Name = "mnuStart"
+        Me.mnuStart.Size = New System.Drawing.Size(43, 20)
+        Me.mnuStart.Text = "Start"
+        '
+        'mnuStartEasy
+        '
+        Me.mnuStartEasy.Name = "mnuStartEasy"
+        Me.mnuStartEasy.Size = New System.Drawing.Size(180, 22)
+        Me.mnuStartEasy.Tag = "1"
+        Me.mnuStartEasy.Text = "Easy Mode"
+        '
+        'mnuStartNormal
+        '
+        Me.mnuStartNormal.Name = "mnuStartNormal"
+        Me.mnuStartNormal.Size = New System.Drawing.Size(180, 22)
+        Me.mnuStartNormal.Tag = "2"
+        Me.mnuStartNormal.Text = "Normal Mode"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -78,8 +128,12 @@ Partial Class frmMain
         Me.Controls.Add(Me.radNormalMode)
         Me.Controls.Add(Me.lblBoxesLeft)
         Me.Controls.Add(Me.btnHidePrizes)
+        Me.Controls.Add(Me.mnuMain)
+        Me.MainMenuStrip = Me.mnuMain
         Me.Name = "frmMain"
         Me.Text = "Hidden Prizes!!"
+        Me.mnuMain.ResumeLayout(False)
+        Me.mnuMain.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -89,4 +143,10 @@ Partial Class frmMain
     Friend WithEvents lblBoxesLeft As Label
     Friend WithEvents radNormalMode As RadioButton
     Friend WithEvents radEasyMode As RadioButton
+    Friend WithEvents mnuMain As MenuStrip
+    Friend WithEvents mnuFile As ToolStripMenuItem
+    Friend WithEvents mnuFileExit As ToolStripMenuItem
+    Friend WithEvents mnuStart As ToolStripMenuItem
+    Friend WithEvents mnuStartEasy As ToolStripMenuItem
+    Friend WithEvents mnuStartNormal As ToolStripMenuItem
 End Class
